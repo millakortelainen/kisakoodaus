@@ -1,0 +1,11 @@
+.container-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.container-grid > div {
+    background-color: #8ca0ff;
+    flex: 200px;
+  }

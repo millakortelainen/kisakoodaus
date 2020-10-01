@@ -1,3 +1,8 @@
+---
+layout: default
+title: Materiaali
+---
+
 Materiaali
 Kisakoodarin käsikirja
 

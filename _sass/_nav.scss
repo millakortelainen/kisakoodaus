@@ -1,67 +1,64 @@
-.side-nav {
+$highlight-color: #765fffff;
+$light-color: white;
+$dark-color: #41444eff;
+
+.nav {
     position: fixed;
-    width: 15em;
-    overflow-y: scroll;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    overflow-x: hidden;
-    background-color: rgb(255, 255, 255);
-    display: block;
-    overscroll-behavior: none;
-}
-
-.side-nav h2 {
     text-align: center;
-    padding: 1em 1em 1em 1em;
+    width: 100%;
+    z-index: 999;
+    background: $light-color;
+    top:0;
 }
 
-.side-nav ol {
+.nav ol {
     list-style-type: none;
     padding-left: 0;
-    color: black;
+    display: inline-block;
 }
 
-nav a {
-    color: black;
+.nav ol li {
+    display: inline-block;
+    padding: 0 0.5em;
+}
+
+.nav ol li a {
     text-decoration: none;
-    outline: none;
-    display: block;
-    padding: 0 0 0.5em 1em;
+    color: inherit;
+    padding: .2em;
+    border-radius: .8em;
 }
 
-nav li:hover {
-    background-color: rgb(148, 148, 148);
+.nav ol li a:visited {
+    color: inherit;
+    text-decoration: none;
 }
 
-.current {
-    background-color: rgb(209, 209, 209);
-  }
-
-.side-nav-obj {
-    display: block;
-    color: #000;
+.nav ol li #logo-link:hover {
+    color: $light-color;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
 }
 
-.side-nav-obj hr {
-    border: none;
+.nav ol li a:hover {
+    color: $light-color;
+    text-decoration: none;
+    background: $highlight-color;
+    padding: .2em;
+    border-radius: .8em;
 }
 
-.side-nav-sub-obj {
-    display: block;
-    color: #000;
-    padding-left: 1em;
+#nav-logo {
+    height: 2rem;
 }
 
-.side-nav button {
+.nav button {
     display: none;
 }
 
-.side-nav #show {
-    display: none;
-}
-
-.side-nav-hidden {
+.nav-hidden {
     position: fixed;
     width: 4em;
     overflow-y: hidden;
@@ -71,59 +68,28 @@ nav li:hover {
     padding-top: 0;
 }
 
-.side-nav-hidden button {
+.nav-hidden #show {
     text-align: center;
     background-color: transparent;
     border: none;
     margin-top: 0;
     overflow-x: hidden;
-    background-image: url(../img/menu-icon.svg);
+    background-image: url(../assets/img/drawing.svg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 4em;
-    width: 4em;
+    height: 3.5rem;
+    width: 3.5rem;
 }
 
-.side-nav-hidden h2 {
+.nav-hidden ol {
     display: none;
 }
 
-.side-nav-hidden ol {
+.nav-hidden #hide {
     display: none;
 }
 
-.no-nav {
+#nav-logo-mobile {
     display: none;
-}
-
-.side-nav-hidden #hide {
-    display: none;
-}
-
-@media screen and (max-width: 500px) {
-
-    .side-nav button {
-        display: grid;
-        box-shadow: none;
-        border: none;
-        font-size: larger;
-        background-color: transparent;
-        margin: 1em 0 0 8em;
-    }
-
-    .side-nav-hidden button {
-        text-align: center;
-        background-color: transparent;
-        border: none;
-        font-size: 3em;
-        font-weight: bolder;
-        margin-top: 0;
-        height: 1em;
-        width: 1em;
-    }
-
-    .side-nav {
-        width: 13em;
-    }
 }
