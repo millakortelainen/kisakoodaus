@@ -1,9 +1,9 @@
 const hideSideNav = () => {
-  document.getElementById("side-nav").className = "side-nav-hidden";
+  document.getElementById("nav").className = "nav-hidden";
 }
 
 function showSideNav() {
-  document.getElementById("side-nav").className = "side-nav";
+  document.getElementById("nav").className = "nav";
 }
 
 function reportWindowSize() {
@@ -18,13 +18,8 @@ window.onresize = reportWindowSize;
 
 window.onload = () => {
   reportWindowSize();
-  setActiveMenu()
- // generateTOC()
 };
 
-window.onscroll = () => {
-  setActiveMenu()
-}
 
 function generateTOC() {
   tof = document.getElementById("tof")
@@ -78,3 +73,27 @@ function setActiveMenu() {
   handleActiveMenu(subtitles)
 }
 
+const scrollRight = () => {
+  const news = document.getElementById("news")
+  news.scroll({
+    left: news.scrollLeft + 400,
+    behavior: 'smooth'
+  });
+}
+
+const scrollLeft2 = () => {
+  const news = document.getElementById("news")
+  news.scroll({
+    left: news.scrollLeft - 400,
+    behavior: 'smooth'
+  });
+}
+
+const selectPage = () => {
+  const selectPages = document.getElementById("page-select")
+  console.log(selectPages.value)
+  if(selectPages.value !== "default"){
+    window.location.href = selectPages.value;
+  }
+  
+}

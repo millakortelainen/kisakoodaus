@@ -1,11 +1,88 @@
-.container-grid {
-    width: 100%;
+.news {
+    overflow-y: scroll;
     display: flex;
-    flex-wrap: wrap;
-   
+    flex-direction: row;
+    text-align: center;
 }
 
-.container-grid > div {
-    background-color: #8ca0ff;
-    flex: 200px;
-  }
+.news > .square {
+    min-width: 25em;
+    border-radius: 0.8em;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.square > p {
+    margin: 0;
+    align-items: center;
+}
+.square > a {
+    margin-left: auto;
+    margin-right: 1rem;
+    color: rgb(43, 43, 43);
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid darkgray;
+}
+
+th, td {
+    padding: 1rem;
+}
+
+.schedule tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.scroll-news-btn {
+    background: lightgray;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
+    padding: 0px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.scroll-news-btn:hover {
+    background-color: darkgray;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.btn-group > .right-btn {
+    margin-left: auto;
+}
+
+.btn-group > button {
+    text-align: center;
+}
+
+.red {
+    background-color: #ff0000ff;
+}
+
+.yellow {
+    background-color: #ffff00ff;
+}
+
+.orange {
+    background-color: #ff6600ff;
+}
+
+.blue {
+    background-color: #0000ffff;
+}
+
+.turquoise {
+    background-color: #00ddffff;
+}
