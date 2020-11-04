@@ -3,8 +3,6 @@ layout: frontpage
 title: Kisakoodaus.fi
 ---
 
-
-
 # Tervetuloa!
 
 Tältä sivustolta löydät tietoa Suomen kisakoodaustoiminnasta. Jos olet tutustumassa aiheeseen, sinun kannattaa lukea ensin artikkelit Mitä on kisakoodaus? ja Näin pääset alkuun.

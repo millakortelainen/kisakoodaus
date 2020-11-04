@@ -37,7 +37,8 @@
     border: 3px solid darkgray;
 }
 
-th, td {
+th,
+td {
     padding: 1rem;
 }
 
@@ -64,12 +65,15 @@ th, td {
 .button-group {
     display: flex;
     flex-direction: row;
-    justify-content: right
-    
+    justify-content: right;
 }
 .button-group > button {
     text-align: center;
     margin: auto 0;
+}
+
+.frontpage > .content {
+    margin-top: 0;
 }
 
 .red {

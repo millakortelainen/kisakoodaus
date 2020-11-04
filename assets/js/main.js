@@ -92,8 +92,18 @@ const scrollLeft2 = () => {
 const selectPage = () => {
   const selectPages = document.getElementById("page-select")
   console.log(selectPages.value)
-  if(selectPages.value !== "default"){
+  if (selectPages.value !== "default") {
     window.location.href = selectPages.value;
   }
+
+}
+
+const showSelect = () => {
+  const selectPages = document.getElementById("select")
   
+  if(selectPages.className === "dropdown"){
+    selectPages.className = "dropdown-show"
+  }else {
+    selectPages.className = "dropdown"
+  }
 }

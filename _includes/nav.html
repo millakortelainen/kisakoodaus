@@ -8,11 +8,21 @@
         <li><a href="{{'/pages/mita-on-kisakoodaus' | relative_url }}">Mitä on kisakoodaus?</a></li>
         <li><a href="{{'/pages/nain-paaset-alkuun' | relative_url }}">Näin pääset alkuun</a></li>
         <li><a href="{{'/pages/materiaali' | relative_url }}"> Materiaali</a></li>
-        <li class=select-wrapper><select class="page-select" id="page-select" onclick="selectPage()">
+        <!--<li class=select-wrapper><select class="page-select" id="page-select" onclick="selectPage()">
             <option value="default">Kilpailut ▼</option>
             <option value="{{'/pages/koulukisat' | relative_url }}">Koulukisat</option>
             <option value="{{'/pages/nettikisat' | relative_url }}">Nettikisat</option>
             <option value ="{{'/pages/yliopistokisat' | relative_url }}">Yliopistokisat</option>
-        </select></li>
+        </select></li>-->
+        <div style="display: inline-grid" >
+        <li onclick="showSelect()">Kilpailut ▼</li>
+        <ol class="dropdown" id="select">
+            <li><a href="{{'/pages/koulukisat' | relative_url }}">Koulukisat</a></li>
+            <li><a href="{{'/pages/nettikisat' | relative_url }}">Nettikisat</a></li>
+            <li><a href="{{'/pages/yliopistokisat' | relative_url }}">Yliopistokisat</a></li>
+        </ol>
+    </div>
+     
     </ol>
+   
 </nav>
