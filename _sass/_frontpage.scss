@@ -1,3 +1,10 @@
+.news-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 65em;
+    margin: auto;
+}
+
 .news {
     overflow-y: scroll;
     display: flex;
@@ -6,7 +13,7 @@
 }
 
 .news > .square {
-    min-width: 25em;
+    min-width: 20em;
     border-radius: 0.8em;
     margin-left: 0.5rem;
     display: flex;
@@ -39,36 +46,34 @@ th, td {
 }
 
 .scroll-news-btn {
-    background: lightgray;
-    height: 2rem;
-    width: 2rem;
-    border-radius: 50%;
+    background: transparent;
+    height: 5rem;
+    width: 5rem;
     border: none;
     padding: 0px;
     vertical-align: middle;
     text-align: center;
+    font-size: 5rem;
+    color: lightgray;
 }
 
 .scroll-news-btn:hover {
-    background-color: darkgray;
+    color: darkgray;
 }
 
-.btn-group {
+.button-group {
     display: flex;
     flex-direction: row;
-    margin-bottom: 1rem;
+    justify-content: right
+    
 }
-
-.btn-group > .right-btn {
-    margin-left: auto;
-}
-
-.btn-group > button {
+.button-group > button {
     text-align: center;
+    margin: auto 0;
 }
 
 .red {
-    background-color: #ff0000ff;
+    background-color: #ed1212ff;
 }
 
 .yellow {
@@ -76,13 +81,13 @@ th, td {
 }
 
 .orange {
-    background-color: #ff6600ff;
+    background-color: #ff8800ff;
 }
 
 .blue {
-    background-color: #0000ffff;
+    background-color: #0060ffff;
 }
 
 .turquoise {
-    background-color: #00ddffff;
+    background-color: #32ecffff;
 }
