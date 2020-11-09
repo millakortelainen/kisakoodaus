@@ -5,16 +5,16 @@
         <li><button id="hide" onclick="hideNav()"> &#x2715;</button></li>
         <li>Kisakoodaus.fi</li>
         <li><a href="{{'/index' | relative_url }}"> Etusivu</a></li>
-        <li id='nav-1' onmouseover="color(1)"><a href="{{'/pages/mita-on-kisakoodaus' | relative_url }}">Mitä on kisakoodaus?</a></li>
-        <li id='nav-2' onmouseover="color(2)"><a href="{{'/pages/nain-paaset-alkuun' | relative_url }}">Näin pääset alkuun</a></li>
-        <li id='nav-3' onmouseover="color(3)"><a href="{{'/pages/materiaali' | relative_url }}"> Materiaali</a></li>
+        <li id='nav-1' onmouseover="color(1)" onmouseout="resetColor(1)"><a href="{{'/pages/mita-on-kisakoodaus' | relative_url }}">Mitä on kisakoodaus?</a></li>
+        <li id='nav-2' onmouseover="color(2)" onmouseout="resetColor(2)"><a href="{{'/pages/nain-paaset-alkuun' | relative_url }}">Näin pääset alkuun</a></li>
+        <li id='nav-3' onmouseover="color(3)" onmouseout="resetColor(3)"><a href="{{'/pages/materiaali' | relative_url }}"> Materiaali</a></li>
 
         <div style="display: inline-grid" >
-        <li id='nav-4' onmouseover="color(4)" onclick="showSelect()">Kilpailut ▼</li>
-        <ol class="dropdown" id="select">
-            <li id='nav-5' onmouseover="color(5)"><a href="{{'/pages/koulukisat' | relative_url }}">Koulukisat</a></li>
-            <li id='nav-6' onmouseover="color(6)"><a href="{{'/pages/nettikisat' | relative_url }}">Nettikisat</a></li>
-            <li id='nav-7' onmouseover="color(7)"><a href="{{'/pages/yliopistokisat' | relative_url }}">Yliopistokisat</a></li>
+        <li id='nav-4' onmouseover="color(4)" onclick="showSelect()" onmouseout="resetColor(4)">Kilpailut ▼</li>
+        <ol class="dropdown" id="select" onmouseout="closeSelect()">
+            <li id='nav-5' onmouseover="color(5)" onmouseout="resetColor(5)"><a href="{{'/pages/koulukisat' | relative_url }}">Koulukisat</a></li>
+            <li id='nav-6' onmouseover="color(6)" onmouseout="resetColor(6)"><a href="{{'/pages/nettikisat' | relative_url }}">Nettikisat</a></li>
+            <li id='nav-7' onmouseover="color(7)" onmouseout="resetColor(7)"><a href="{{'/pages/yliopistokisat' | relative_url }}">Yliopistokisat</a></li>
         </ol>
     </div>
      

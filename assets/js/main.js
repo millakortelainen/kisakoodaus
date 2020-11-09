@@ -108,7 +108,31 @@ const showSelect = () => {
   }
 }
 
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
 const color = (number) => {
-  const listItem = document.getElementById("nav-"+number)
-  console.log(listItem)
+  const listItem = document.getElementById("nav-" + number)
+  const chooseColor = getRandomInt(5)
+  if (chooseColor === 0) {
+    document.getElementById('nav-' + number).className = 'turquoise'
+  } else if (chooseColor === 1) {
+    document.getElementById('nav-' + number).className = 'blue'
+  } else if (chooseColor === 2) {
+    document.getElementById('nav-' + number).className = 'orange'
+  } else if (chooseColor === 3) {
+    document.getElementById('nav-' + number).className = 'yellow'
+  } else if (chooseColor === 4) {
+    document.getElementById('nav-' + number).className = 'red'
+  }
+}
+
+const resetColor = (number) => {
+  const listItem = document.getElementById("nav-" + number)
+  listItem.className = 'white'
+}
+
+const closeSelect = () => {
+
 }
