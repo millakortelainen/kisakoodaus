@@ -100,10 +100,15 @@ const selectPage = () => {
 
 const showSelect = () => {
   const selectPages = document.getElementById("select")
-  
-  if(selectPages.className === "dropdown"){
+
+  if (selectPages.className === "dropdown") {
     selectPages.className = "dropdown-show"
-  }else {
+  } else {
     selectPages.className = "dropdown"
   }
+}
+
+const color = (number) => {
+  const listItem = document.getElementById("nav-"+number)
+  console.log(listItem)
 }

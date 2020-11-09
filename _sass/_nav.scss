@@ -8,12 +8,12 @@
 }
 
 .dropdown {
-    display: none !important; 
+    display: none !important;
 }
 
 .dropdown-show {
     display: inline-grid !important;
-    margin-top: 2em; 
+    margin-top: 2em;
     position: fixed;
     text-align: left;
     background-color: white;
@@ -21,7 +21,7 @@
 }
 
 .dropdown-show > li {
-    padding: 0 .5rem .5rem .5rem !important;
+    padding: 0 0.5rem 0.5rem 0.5rem !important;
 }
 
 .select-wrapper {
@@ -107,3 +107,4 @@
 #nav-logo-mobile {
     display: none;
 }
+
