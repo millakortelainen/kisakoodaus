@@ -7,14 +7,23 @@
     background-color: white;
 }
 
-.page-select {
-    font-size: initial;
-    text-decoration: none;
-    background: none;
-    border: none;
-    -webkit-appearance: none;
-    appearance: none;
+.dropdown {
+    display: none !important;
 }
+
+.dropdown-show {
+    display: inline-grid !important;
+    margin-top: 2em;
+    position: fixed;
+    text-align: left;
+    background-color: white;
+    padding: 0;
+}
+
+.dropdown-show > li {
+    padding: 0 0.5rem 0.5rem 0.5rem !important;
+}
+
 .select-wrapper {
     position: relative;
 }
@@ -98,3 +107,4 @@
 #nav-logo-mobile {
     display: none;
 }
+

@@ -92,8 +92,47 @@ const scrollLeft2 = () => {
 const selectPage = () => {
   const selectPages = document.getElementById("page-select")
   console.log(selectPages.value)
-  if(selectPages.value !== "default"){
+  if (selectPages.value !== "default") {
     window.location.href = selectPages.value;
   }
-  
+
+}
+
+const showSelect = () => {
+  const selectPages = document.getElementById("select")
+
+  if (selectPages.className === "dropdown") {
+    selectPages.className = "dropdown-show"
+  } else {
+    selectPages.className = "dropdown"
+  }
+}
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+const color = (number) => {
+  const listItem = document.getElementById("nav-" + number)
+  const chooseColor = getRandomInt(5)
+  if (chooseColor === 0) {
+    document.getElementById('nav-' + number).className = 'turquoise'
+  } else if (chooseColor === 1) {
+    document.getElementById('nav-' + number).className = 'blue'
+  } else if (chooseColor === 2) {
+    document.getElementById('nav-' + number).className = 'orange'
+  } else if (chooseColor === 3) {
+    document.getElementById('nav-' + number).className = 'yellow'
+  } else if (chooseColor === 4) {
+    document.getElementById('nav-' + number).className = 'red'
+  }
+}
+
+const resetColor = (number) => {
+  const listItem = document.getElementById("nav-" + number)
+  listItem.className = 'white'
+}
+
+const closeSelect = () => {
+
 }
