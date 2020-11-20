@@ -3,7 +3,7 @@
     <button id="show" onclick="showNav()"> </button>
     <ol>
         <li><button id="hide" onclick="hideNav()"> &#x2715;</button></li>
-        <li>Kisakoodaus.fi</li>
+        <li><a id="logo-link" href="{{'/index' | relative_url }}"><img src="{{ '/assets/img/logo_oranssi_teksti.png' | relative_url }}" id="nav-logo"></a></li>
         <li id='nav-1' onmouseover="color(1)" onmouseout="resetColor(1)"><a
                 href="{{'/pages/mita-on-kisakoodaus' | relative_url }}">Mitä on kisakoodaus?</a></li>
 
