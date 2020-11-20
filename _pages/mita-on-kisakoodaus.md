@@ -25,6 +25,7 @@ Lasketaan jokaisesta merkistä, montako kertaa se esiintyy merkkijonossa. Jos ka
 
 Ratkaisu C++-koodina
 
+```c++
 #include <iostream>
 
 using namespace std;
@@ -44,3 +45,4 @@ int main() {
     if (z <= 1) cout << "YES\n";
     else cout << "NO\n";
 }
+```
