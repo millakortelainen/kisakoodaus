@@ -1,20 +1,22 @@
 <nav class="nav" id="nav">
+        <a id="logo-link" href="{{'/index' | relative_url }}"><img
+                        src="{{ '/assets/img/logo_oranssi_teksti.png' | relative_url }}" id="nav-logo"></a>
 
-    <button id="show" onclick="showSideNav()"> </button>
-    <ol>
-        <li><button id="hide" onclick="hideSideNav()"> &#x2715;</button></li>
-        <li><a id="logo-link" href="{{'/index' | relative_url }}"><img src="{{ '/assets/img/logo_oranssi_teksti.png' | relative_url }}" id="nav-logo"></a></li>
-        <li id='nav-1' onmouseover="color(1)" onmouseout="resetColor(1)"><a
-                href="{{'/pages/mita-on-kisakoodaus' | relative_url }}">Mitä on kisakoodaus?</a></li>
-        <li id='nav-5' onmouseover="color(5)" onmouseout="resetColor(5)"><a
-                href="{{'/pages/koulukisat' | relative_url }}">Koulukisat</a></li>
-        <li id='nav-6' onmouseover="color(6)" onmouseout="resetColor(6)"><a
-                href="{{'/pages/nettikisat' | relative_url }}">Nettikisat</a></li>
-        <li id='nav-7' onmouseover="color(7)" onmouseout="resetColor(7)"><a
-                href="{{'/pages/yliopistokisat' | relative_url }}">Yliopistokisat</a></li>
-        <li id='nav-3' onmouseover="color(3)" onmouseout="resetColor(3)"><a
-                href="{{'/pages/materiaali' | relative_url }}"> Materiaali</a></li>
+        <button id="show" onclick="showSideNav()"> </button>
+        <br>
+        <ol>
+                <li><button id="hide" onclick="hideSideNav()"> &#x2715;</button></li>
+                <li id='nav-1' onmouseover="color(1)" onmouseout="resetColor(1)"><a
+                                href="{{'/pages/mita-on-kisakoodaus' | relative_url }}">Mitä on kisakoodaus?</a></li>
+                <li id='nav-5' onmouseover="color(5)" onmouseout="resetColor(5)"><a
+                                href="{{'/pages/koulukisat' | relative_url }}">Koulukisat</a></li>
+                <li id='nav-6' onmouseover="color(6)" onmouseout="resetColor(6)"><a
+                                href="{{'/pages/nettikisat' | relative_url }}">Nettikisat</a></li>
+                <li id='nav-7' onmouseover="color(7)" onmouseout="resetColor(7)"><a
+                                href="{{'/pages/yliopistokisat' | relative_url }}">Yliopistokisat</a></li>
+                <li id='nav-3' onmouseover="color(3)" onmouseout="resetColor(3)"><a
+                                href="{{'/pages/materiaali' | relative_url }}"> Materiaali</a></li>
 
-    </ol>
+        </ol>
 
 </nav>

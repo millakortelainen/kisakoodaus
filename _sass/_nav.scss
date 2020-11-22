@@ -5,17 +5,14 @@
     z-index: 999;
     top: 0;
     background-color: white;
-}
-
-
-.select-wrapper {
-    position: relative;
+    padding-top: 1rem;
 }
 
 .nav ol {
     list-style-type: none;
     padding-left: 0;
     display: inline-block;
+    margin-top: 0;
 }
 
 .nav ol li {
@@ -34,17 +31,13 @@
     text-decoration: none;
 }
 
-.nav ol li #logo-link:hover {
+#logo-link:hover {
     text-decoration: none;
     background: transparent;
-    padding: 0;
-    border-radius: 0;
 }
 
 .nav ol li a:hover {
     text-decoration: none;
-    padding: 0.2em;
-    border-radius: 0.8em;
 }
 
 #nav-logo {
@@ -79,6 +72,10 @@
     width: 3.5rem;
 }
 
+.nav-hidden #logo-link{
+    display: none;
+}
+
 .nav-hidden ol {
     display: none;
 }
@@ -91,3 +88,15 @@
     display: none;
 }
 
+@media screen and (max-width: 500px) {
+    #hide {
+        display: flex;
+        background: transparent;
+        border: none;
+        height: 3rem;
+        width: 3rem;
+        font-size: 2.5rem;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -99,3 +99,21 @@ td {
 .white {
     background-color: white;
 }
+
+@media screen and (max-width: 500px) {
+    .scroll-news-btn {
+        background: transparent;
+        height: 2rem;
+        width: 2rem;
+        border: none;
+        padding: 0px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 2rem;
+        color: lightgray;
+    }
+    .button-group > button {
+        text-align: center;
+        margin: auto 0;
+    }
+}
