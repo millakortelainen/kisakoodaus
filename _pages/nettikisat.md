@@ -3,48 +3,48 @@ layout: default
 title: Nettikisat
 ---
 
-# Nettikisat
+## Nettikisat
 
-Kisasivustot
+### Kisasivustot
 
-    AtCoder
+    [AtCoder](https://atcoder.jp/)
 
-    Codeforces
+    [Codeforces](http://codeforces.com/)
 
-    CS Academy
+    [CS Academy](https://csacademy.com/)
 
-    HackerRank
+    [HackerRank](http://www.hackerrank.com/)
 
-    Topcoder
+    [Topcoder](http://www.topcoder.com/)
 
-Tehtäväkokoelmat
+### Tehtäväkokoelmat
 
-    Project Euler
+    [Project Euler](http://projecteuler.net/)
 
-    Putkaposti
+    [Putkaposti](http://www.ohjelmointiputka.net/posti.php)
 
-    USACO Training
+    [USACO Training](http://train.usaco.org/usacogate)
 
-Kilpailusarjat
+### Kilpailusarjat
 
-    COCI
+    [COCI](http://hsin.hr/coci/)
 
-    USACO
+    [USACO](http://www.usaco.org/)
 
-Turnaukset
+### Turnaukset
 
-    Facebook Hacker Cup
+    [Facebook Hacker Cup](http://www.facebook.com/hackercup)
 
-    Google Code Jam
+    [Google Code Jam](http://code.google.com/codejam)
 
-    Topcoder Open
+    [Topcoder Open](http://tco15.topcoder.com/)
 
-    Yandex.Algorithm
+    [Yandex.Algorithm](http://contest.yandex.ru/)
 
-24h-kisat
+### 24h-kisat
 
-    Challenge24
+    [Challenge24](http://ch24.org/)
 
-    Deadline24
+    [Deadline24](https://deadline24.pl/)
 
-    Marathon24
+    [Marathon24](http://www.marathon24.com/)
