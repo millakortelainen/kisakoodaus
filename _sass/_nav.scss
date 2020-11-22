@@ -7,22 +7,6 @@
     background-color: white;
 }
 
-.dropdown {
-    display: none !important;
-}
-
-.dropdown-show {
-    display: inline-grid !important;
-    margin-top: 2em;
-    position: fixed;
-    text-align: left;
-    background-color: white;
-    padding: 0;
-}
-
-.dropdown-show > li {
-    padding: 0 0.5rem 0.5rem 0.5rem !important;
-}
 
 .select-wrapper {
     position: relative;
@@ -43,7 +27,6 @@
     text-decoration: none;
     color: inherit;
     padding: 0.2em;
-    border-radius: 0.8em;
 }
 
 .nav ol li a:visited {
@@ -88,7 +71,7 @@
     border: none;
     margin-top: 0;
     overflow-x: hidden;
-    background-image: url(../assets/img/drawing.svg);
+    background-image: url(../img/menu-icon.svg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
