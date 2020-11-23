@@ -3,14 +3,14 @@ layout: default
 title: Yliopistokisat
 ---
 
-## Yliopistokisat
-### NCPC
+# Yliopistokisat
+## NCPC
 
 NCPC on Pohjoismaiden yliopistojen välinen kilpailu. Siihen osallistuu joukkueita Suomesta, Ruotsista, Norjasta, Tanskasta ja Islannista. Jokainen joukkue osallistuu kilpailuun omalla yliopistollaan.
-### NWERC
+## NWERC
 
 NWERC on Luoteis-Euroopan kilpailu, johon osallistuvat Pohjoismaat, Saksa, Benelux-maat, Iso-Britannia ja Irlanti. Kilpailu järjestetään yhteisesti tietyssä yliopistossa, ja jokainen yliopisto voi lähettää kilpailuun 2–3 joukkuetta.
-### ICPC-finaali
+## ICPC-finaali
 
 ICPC-finaaliin (World Finals) kutsutaan NWERCin ja muiden aluekilpailuiden parhaat joukkueet. Finaaliin pääseminen on vaikeaa, koska vain 3–4 NWERCin parasta joukkuetta saa paikan.
 

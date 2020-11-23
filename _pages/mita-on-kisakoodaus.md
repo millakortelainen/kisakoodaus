@@ -2,7 +2,7 @@
 layout: default
 title: Mitä on kisakoodaus?
 ---
-## Mitä on kisakoodaus?
+# Mitä on kisakoodaus?
 Kisakoodaus eli kilpaohjelmointi mittaa taitoa suunnitella ja toteuttaa algoritmeja. Kilpailuissa menestyminen vaatii kykyä ratkaista ongelmia sekä koodata nopeasti ja virheettömästi.
 
 Ohjelmointikilpailussa on joukko tehtäviä, jotka täytyy ratkaista tietyn ajan kuluessa. Yleensä jokaisen tehtävän ratkaisu on ohjelma, joka lukee syötteen, ratkaisee tehtävän ja tulostaa vastauksen.
@@ -10,7 +10,7 @@ Ohjelmointikilpailussa on joukko tehtäviä, jotka täytyy ratkaista tietyn ajan
 Ratkaisun arvostelu tapahtuu automaattisesti testaamalla sitä joukolla tekstisyötteitä. Testauksessa tutkitaan toimiiko ratkaisu oikein ja riittävän tehokkaasti.
 
 
-### Esimerkkitehtävä
+## Esimerkkitehtävä
 
 Annettuna on merkkijono, jossa on n merkkiä väliltä A–Z. Tehtäväsi on tutkia, saako merkkijonosta palindromin järjestämällä merkit sopivasti.
 
@@ -19,11 +19,11 @@ Esimerkiksi jos merkkijono on ABABC, siitä saa palindromin ABCBA. Merkkijonosta
 Ohjelmasi tulee tulostaa "YES", jos merkkijonosta saa palindromin, ja muuten "NO".
 
 
-### Ratkaisun idea
+## Ratkaisun idea
 
 Lasketaan jokaisesta merkistä, montako kertaa se esiintyy merkkijonossa. Jos kaikkia merkkejä on parillinen määrä tai tasan yhtä merkkiä on pariton määrä, merkeistä voi muodostaa palindromin. Jälkimmäisessä tapauksessa pariton merkki on palindromin keskellä.
 
-### Ratkaisu C++-koodina
+## Ratkaisu C++-koodina
 
 ```c++
 #include <iostream>
@@ -46,7 +46,7 @@ int main() {
     else cout << "NO\n";
 }
 ```
-## Näin pääset alkuun
+# Näin pääset alkuun
 
 1. **Opettele C++**
 
