@@ -1,35 +1,3 @@
-const hideSideNav = () => {
-  document.getElementById("nav").className = "nav-hidden";
-}
-
-function showSideNav() {
-  document.getElementById("nav").className = "nav";
-}
-
-function reportWindowSize() {
-  if (window.innerWidth < 500) {
-    hideSideNav();
-  } else {
-    showSideNav();
-  }
-}
-
-window.onresize = reportWindowSize;
-
-window.onload = () => {
-  reportWindowSize();
-};
-
-
-function generateTOC() {
-  tof = document.getElementById("tof")
-  if (tof && document.body.id === "chapter") {
-    tof.parentNode.insertBefore(document.getElementsByTagName("h1")[0], tof)
-    tof.style.removeProperty("display")
-  }
-
-}
-
 function handleActiveMenu(headers) {
 
   for (h in headers) {

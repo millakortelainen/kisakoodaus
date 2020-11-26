@@ -72,31 +72,3 @@
     width: 3.5rem;
 }
 
-.nav-hidden #logo-link{
-    display: none;
-}
-
-.nav-hidden ol {
-    display: none;
-}
-
-.nav-hidden #hide {
-    display: none;
-}
-
-#nav-logo-mobile {
-    display: none;
-}
-
-@media screen and (max-width: 500px) {
-    #hide {
-        display: flex;
-        background: transparent;
-        border: none;
-        height: 3rem;
-        width: 3rem;
-        font-size: 2.5rem;
-        margin: 0;
-        padding: 0;
-    }
-}
