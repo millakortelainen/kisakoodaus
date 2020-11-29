@@ -11,11 +11,33 @@ img {
     max-width: 45rem;
 }
 
-@media screen and (max-width: 500px) {
-    .content {
-        margin-left: 3em;
-    }
+.clickable-text:hover {
+    background-color: lightgray;
+}
 
+.result {
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    word-wrap: normal;
+}
+
+.result td {
+    vertical-align: top;
+}
+
+.result .small{
+    width: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .result th{
+        padding: .3rem;
+    }
+    .result td{
+        padding: .3rem;
+    }
+    
     img {
         max-width: 300px;
     }

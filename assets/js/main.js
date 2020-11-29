@@ -101,6 +101,11 @@ const resetColor = (number) => {
   listItem.className = 'white'
 }
 
-const closeSelect = () => {
+function test(param) {
+  if (param.lastElementChild.style.display === "none") {
+    param.lastElementChild.style.display = "inherit"
+  } else {
+    param.lastElementChild.style.display = "none"
+  }
 
 }

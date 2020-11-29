@@ -31,8 +31,9 @@
     color: rgb(43, 43, 43);
 }
 
-.schedule {
+table {
     width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     border: 3px solid darkgray;
 }
@@ -42,7 +43,7 @@ td {
     padding: 1rem;
 }
 
-.schedule tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: lightgray;
 }
 
