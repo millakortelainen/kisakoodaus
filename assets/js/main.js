@@ -104,7 +104,7 @@ const resetColor = (number) => {
 function test(param) {
   if (param.lastElementChild.style.display === "none") {
     param.lastElementChild.style.display = "inherit"
-    param.parentNode.colSpan = 2
+    param.parentNode.colSpan = 3
     hide = document.getElementsByClassName('hide')
     for (let el of hide) {
       el.style.visibility = "collapse"
