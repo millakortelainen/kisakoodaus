@@ -10,6 +10,12 @@ title: Arkisto
 
 <p>Suomi on saanut BOI:sta 8 kultamitalia, 22 hopeamitalia ja 37 pronssimitalia.</p>
 <table class='result'>
+  <colgroup>
+        <col>
+        <col >
+        <col span=3 class='hide'>
+        <col >
+    </colgroup>
 <tr>
     <th>vuosi</th>
     <th>paikka</th>
