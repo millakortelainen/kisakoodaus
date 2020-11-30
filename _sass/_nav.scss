@@ -72,3 +72,8 @@
     width: 3.5rem;
 }
 
+@media screen and (max-width: 500px) {
+    .nav ol li {
+        padding: 0;
+    }
+}
