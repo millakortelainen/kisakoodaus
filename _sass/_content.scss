@@ -45,6 +45,19 @@ img {
     content: "＋";
 }
 
+h1:not(.competition-header) {
+    background-image: url(../img/logokeltainen.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 4.5rem;
+    background-color:#ffe814ff;
+}
+
+h1:not(.competition-header)::before {
+    
+
+}
+
 @media screen and (max-width: 500px) {
     .result th {
         padding: 0.3rem;
