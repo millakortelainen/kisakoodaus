@@ -1,8 +1,13 @@
 
-<div id="click{{ include.year}}" onclick="test(document.getElementById('click{{ include.year}}'))">
-    <div class='clickable-text' style="cursor:pointer" >jouk&shy;kue</div>
-
+<div class="unfolding-div" id="click{{ include.year}}" onclick="test(document.getElementById('click{{ include.year}}'))">
+    <div class='clickable-text' style="cursor:pointer">
+        <h1 class='competition-header'>
+            <div>{{ include .year}}</div> 
+        <div>{{ include.place }}</div> 
+        <div>{{ include.gold }}</div> 
+        <div>{{ include.silver }}</div> 
+        <div>{{ include.bronze }}</div> </h1></div>
 <div style='display:none;'>
-    {{ include.joukkue}}</div>
+    {{ include.content}}</div>
 </div>
 

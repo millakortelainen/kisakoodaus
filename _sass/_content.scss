@@ -15,6 +15,15 @@ img {
     background-color: lightgray;
 }
 
+.competition-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.competition-header > div {
+    flex: auto;
+}
+
 .result {
     table-layout: fixed;
     width: 100%;
@@ -26,22 +35,24 @@ img {
     vertical-align: top;
 }
 
-.result .small{
+.result .small {
     width: 1rem;
 }
 
-.strech {
-    
+.unfolding-div h1::after {
+    padding-left: 1.5rem;
+    font-size: 0.8em;
+    content: "＋";
 }
 
 @media screen and (max-width: 500px) {
-    .result th{
-        padding: .3rem;
+    .result th {
+        padding: 0.3rem;
     }
-    .result td{
-        padding: .3rem;
+    .result td {
+        padding: 0.3rem;
     }
-    
+
     img {
         max-width: 300px;
     }

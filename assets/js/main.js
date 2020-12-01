@@ -59,7 +59,6 @@ const scrollLeft2 = () => {
 
 const selectPage = () => {
   const selectPages = document.getElementById("page-select")
-  console.log(selectPages.value)
   if (selectPages.value !== "default") {
     window.location.href = selectPages.value;
   }
@@ -104,14 +103,9 @@ const resetColor = (number) => {
 function test(param) {
   if (param.lastElementChild.style.display === "none") {
     param.lastElementChild.style.display = "inherit"
-    param.parentNode.colSpan = 3
-    hide = document.getElementsByClassName('hide')
-    for (let el of hide) {
-      el.style.visibility = "collapse"
-    }
+    
   } else {
     param.lastElementChild.style.display = "none"
-    param.parentNode.colSpan = 1
   }
 
 }

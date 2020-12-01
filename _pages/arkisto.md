@@ -9,72 +9,57 @@ title: Arkisto
 
 
 <p>Suomi on saanut BOI:sta 8 kultamitalia, 22 hopeamitalia ja 37 pronssimitalia.</p>
-<table class='result'>
-  <colgroup>
-        <col>
-        <col >
-        <col span=3 class='hide'>
-        <col >
-    </colgroup>
-<tr>
-    <th>vuosi</th>
-    <th>paikka</th>
-    <th class='small'>k</th>
-    <th class='small'>h</th>
-    <th class='small'>p</th>
-    <th></th>
-</tr>
-<tr>
-    <td>2020</td>
-    <td>Etäkisa, Latvia</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>{% include open-this.html year=2020 
-    joukkue='
-    <ul>
-    <li> Henrik Aalto (hopeamitali)</li>
+<h1 class='competition-header'>
+    <div>vuosi</div> 
+    <div>paikka</div> 
+    <div>k</div> 
+    <div>h</div> 
+    <div>p</div> 
+</h1>
+{% include open-this.html 
+    year=2020
+    place='Etäkisa, Latvia'
+    gold=1
+    silver=1
+    bronze=1
+    content='<p>Suomen joukkue:</p>
+
+<ul>
+<li> Henrik Aalto (hopeamitali)</li>
 <li> Valtteri Aurela</li>
 <li> Unto Karila</li>
 <li> Pauli Kauro</li>
 <li> Juho Röyskö (pronssimitali)</li>
 <li> Roope Salmi (kultamitali)</li>
 </ul>
-' %}</td>
-</tr>
-<tr><td>2019</td><td>Tartto, Viro</td><td>1</td><td>2</td><td>2</td><td><a href="#v2019">joukkue</a></td></tr><tr><td>2018</td><td>Tukholma, Ruotsi</td><td>2</td><td>1</td><td>1</td><td><a href="#v2018">joukkue</a></td></tr><tr><td>2017</td><td>Bergen, Norja</td><td>0</td><td>1</td><td>2</td><td><a href="#v2017">joukkue</a></td></tr><tr><td>2016</td><td>Helsinki, Suomi</td><td>0</td><td>2</td><td>1</td><td><a href="#v2016">joukkue</a></td></tr><tr><td>2015</td><td>Varsova, Puola</td><td>0</td><td>2</td><td>4</td><td><a href="#v2015">joukkue</a></td></tr><tr><td>2014</td><td>Palanga, Liettua</td><td>0</td><td>3</td><td>1</td><td><a href="#v2014">joukkue</a></td></tr><tr><td>2013</td><td>Rostock, Saksa</td><td>0</td><td>0</td><td>2</td><td><a href="#v2013">joukkue</a></td></tr><tr><td>2012</td><td>Ventspils, Latvia</td><td>0</td><td>1</td><td>2</td><td><a href="#v2012">joukkue</a></td></tr><tr><td>2011</td><td>Lyngby, Tanska</td><td>0</td><td>0</td><td>1</td><td><a href="#v2011">joukkue</a></td></tr><tr><td>2010</td><td>Tartto, Viro</td><td>0</td><td>1</td><td>2</td><td><a href="#v2010">joukkue</a></td></tr><tr><td>2009</td><td>Tukholma, Ruotsi</td><td>0</td><td>0</td><td>1</td><td><a href="#v2009">joukkue</a></td></tr><tr><td>2008</td><td>Gdynia, Puola</td><td>0</td><td>1</td><td>0</td><td><a href="#v2008">joukkue</a></td></tr><tr><td>2007</td><td>Güstrow, Saksa</td><td>0</td><td>1</td><td>2</td><td><a href="#v2007">joukkue</a></td></tr><tr><td>2006</td><td>Heinola, Suomi</td><td>1</td><td>0</td><td>3</td><td><a href="#v2006">joukkue</a></td></tr><tr><td>2005</td><td>Pasvalys, Liettua</td><td>0</td><td>0</td><td>2</td><td><a href="#v2005">joukkue</a></td></tr><tr><td>2004</td><td>Ventspils, Latvia</td><td>0</td><td>1</td><td>4</td><td><a href="#v2004">joukkue</a></td></tr><tr><td>2003</td><td>Tartto, Viro</td><td>0</td><td>4</td><td>1</td><td><a href="#v2003">joukkue</a></td></tr><tr><td>2002</td><td>Vilna, Liettua</td><td>0</td><td>1</td><td>2</td><td><a href="#v2002">joukkue</a></td></tr><tr><td>2001</td><td>Sopot, Puola</td><td>0</td><td>0</td><td>2</td><td><a href="#v2001">joukkue</a></td></tr><tr><td>2000</td><td>Haninge, Ruotsi</td><td>2</td><td>0</td><td>0</td><td><a href="#v2000">joukkue</a></td></tr><tr><td>1999</td><td>Riika, Latvia</td><td>0</td><td>0</td><td>1</td><td><a href="#v1999">joukkue</a></td></tr><tr><td>1998</td><td>Tartto, Viro</td><td>1</td><td>0</td><td>0</td><td><a href="#v1998">joukkue</a></td></tr></table>
-
-<h2 id="v2020">BOI 2020: Etäkisa, Latvia</h2>
-
-<p>Suomen joukkue:</p>
-
-
-* Henrik Aalto (hopeamitali)
-* Valtteri Aurela
-* Unto Karila
-* Pauli Kauro
-* Juho Röyskö (pronssimitali)
-* Roope Salmi (kultamitali)
-
 
 <p>Ohjaajat: Antti Laaksonen ja Antti Röyskö</p>
 
-<p>Koronan vuoksi BOI järjestettiin etänä. Suomen joukkue kilpaili Päivölän opistolla.</p>
+<p>Koronan vuoksi BOI järjestettiin etänä. Suomen joukkue kilpaili Päivölän opistolla.</p>' 
+%}
 
-<h2 id="v2019">BOI 2019: Tartto, Viro</h2>
+{% include open-this.html 
+    year=2019
+    place='Tartto, Viro'
+    gold=1
+    silver=2
+    bronze=2
+    content='<p>Suomen joukkue:</p>
 
-<p>Suomen joukkue:</p>
+<ul>
+<li> Henrik Aalto </li>
+<li> Akseli Jussinmäki (pronssimitali) </li>
+<li> Olli Järviniemi (hopeamitali) </li>
+<li> Roope Salmi (kultamitali) </li>
+<li> Santeri Toivonen (hopeamitali) </li>
+<li> Tuukka Yildirim (pronssimitali) </li>
+</ul>
 
+<p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p>' 
+%}
+<table class='result'>
+<tr><td>2018</td><td>Tukholma, Ruotsi</td><td>2</td><td>1</td><td>1</td><td><a href="#v2018">joukkue</a></td></tr><tr><td>2017</td><td>Bergen, Norja</td><td>0</td><td>1</td><td>2</td><td><a href="#v2017">joukkue</a></td></tr><tr><td>2016</td><td>Helsinki, Suomi</td><td>0</td><td>2</td><td>1</td><td><a href="#v2016">joukkue</a></td></tr><tr><td>2015</td><td>Varsova, Puola</td><td>0</td><td>2</td><td>4</td><td><a href="#v2015">joukkue</a></td></tr><tr><td>2014</td><td>Palanga, Liettua</td><td>0</td><td>3</td><td>1</td><td><a href="#v2014">joukkue</a></td></tr><tr><td>2013</td><td>Rostock, Saksa</td><td>0</td><td>0</td><td>2</td><td><a href="#v2013">joukkue</a></td></tr><tr><td>2012</td><td>Ventspils, Latvia</td><td>0</td><td>1</td><td>2</td><td><a href="#v2012">joukkue</a></td></tr><tr><td>2011</td><td>Lyngby, Tanska</td><td>0</td><td>0</td><td>1</td><td><a href="#v2011">joukkue</a></td></tr><tr><td>2010</td><td>Tartto, Viro</td><td>0</td><td>1</td><td>2</td><td><a href="#v2010">joukkue</a></td></tr><tr><td>2009</td><td>Tukholma, Ruotsi</td><td>0</td><td>0</td><td>1</td><td><a href="#v2009">joukkue</a></td></tr><tr><td>2008</td><td>Gdynia, Puola</td><td>0</td><td>1</td><td>0</td><td><a href="#v2008">joukkue</a></td></tr><tr><td>2007</td><td>Güstrow, Saksa</td><td>0</td><td>1</td><td>2</td><td><a href="#v2007">joukkue</a></td></tr><tr><td>2006</td><td>Heinola, Suomi</td><td>1</td><td>0</td><td>3</td><td><a href="#v2006">joukkue</a></td></tr><tr><td>2005</td><td>Pasvalys, Liettua</td><td>0</td><td>0</td><td>2</td><td><a href="#v2005">joukkue</a></td></tr><tr><td>2004</td><td>Ventspils, Latvia</td><td>0</td><td>1</td><td>4</td><td><a href="#v2004">joukkue</a></td></tr><tr><td>2003</td><td>Tartto, Viro</td><td>0</td><td>4</td><td>1</td><td><a href="#v2003">joukkue</a></td></tr><tr><td>2002</td><td>Vilna, Liettua</td><td>0</td><td>1</td><td>2</td><td><a href="#v2002">joukkue</a></td></tr><tr><td>2001</td><td>Sopot, Puola</td><td>0</td><td>0</td><td>2</td><td><a href="#v2001">joukkue</a></td></tr><tr><td>2000</td><td>Haninge, Ruotsi</td><td>2</td><td>0</td><td>0</td><td><a href="#v2000">joukkue</a></td></tr><tr><td>1999</td><td>Riika, Latvia</td><td>0</td><td>0</td><td>1</td><td><a href="#v1999">joukkue</a></td></tr><tr><td>1998</td><td>Tartto, Viro</td><td>1</td><td>0</td><td>0</td><td><a href="#v1998">joukkue</a></td></tr></table>
 
-* Henrik Aalto
-* Akseli Jussinmäki (pronssimitali)
-* Olli Järviniemi (hopeamitali)
-* Roope Salmi (kultamitali)
-* Santeri Toivonen (hopeamitali)
-* Tuukka Yildirim (pronssimitali)
-
-
-<p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p>
 
 <h2 id="v2018">BOI 2018: Tukholma, Ruotsi</h2>
 
