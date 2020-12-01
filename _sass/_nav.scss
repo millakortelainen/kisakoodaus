@@ -44,36 +44,18 @@
     height: 2rem;
 }
 
-.nav button {
-    display: none;
-}
-
-.nav-hidden {
-    position: fixed;
-    width: 4em;
-    overflow-y: hidden;
-    background-color: transparent;
-    overflow-x: hidden;
-    margin-top: 0;
-    padding-top: 0;
-}
-
-.nav-hidden #show {
-    text-align: center;
-    background-color: transparent;
-    border: none;
-    margin-top: 0;
-    overflow-x: hidden;
-    background-image: url(../img/menu-icon.svg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 3.5rem;
-    width: 3.5rem;
-}
 
 @media screen and (max-width: 500px) {
+    .nav {
+        position: fixed;
+        text-align: left;
+        width: 100%;
+        z-index: 999;
+        top: 0;
+        background-color: white;
+        padding-top: 1rem;
+    }
     .nav ol li {
-        padding: 0;
+        padding: .2rem;
     }
 }
