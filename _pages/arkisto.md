@@ -19,9 +19,6 @@ title: Arkisto
 {% include open-this.html 
     year=2020
     place='Etäkisa, Latvia'
-    gold=1
-    silver=1
-    bronze=1
     content='<p>Suomen joukkue:</p>
 
 <ul>
@@ -41,9 +38,6 @@ title: Arkisto
 {% include open-this.html 
     year=2019
     place='Tartto, Viro'
-    gold=1
-    silver=2
-    bronze=2
     content='<p>Suomen joukkue:</p>
 
 <ul>
@@ -57,279 +51,356 @@ title: Arkisto
 
 <p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p>' 
 %}
-<table class='result'>
-<tr><td>2018</td><td>Tukholma, Ruotsi</td><td>2</td><td>1</td><td>1</td><td><a href="#v2018">joukkue</a></td></tr><tr><td>2017</td><td>Bergen, Norja</td><td>0</td><td>1</td><td>2</td><td><a href="#v2017">joukkue</a></td></tr><tr><td>2016</td><td>Helsinki, Suomi</td><td>0</td><td>2</td><td>1</td><td><a href="#v2016">joukkue</a></td></tr><tr><td>2015</td><td>Varsova, Puola</td><td>0</td><td>2</td><td>4</td><td><a href="#v2015">joukkue</a></td></tr><tr><td>2014</td><td>Palanga, Liettua</td><td>0</td><td>3</td><td>1</td><td><a href="#v2014">joukkue</a></td></tr><tr><td>2013</td><td>Rostock, Saksa</td><td>0</td><td>0</td><td>2</td><td><a href="#v2013">joukkue</a></td></tr><tr><td>2012</td><td>Ventspils, Latvia</td><td>0</td><td>1</td><td>2</td><td><a href="#v2012">joukkue</a></td></tr><tr><td>2011</td><td>Lyngby, Tanska</td><td>0</td><td>0</td><td>1</td><td><a href="#v2011">joukkue</a></td></tr><tr><td>2010</td><td>Tartto, Viro</td><td>0</td><td>1</td><td>2</td><td><a href="#v2010">joukkue</a></td></tr><tr><td>2009</td><td>Tukholma, Ruotsi</td><td>0</td><td>0</td><td>1</td><td><a href="#v2009">joukkue</a></td></tr><tr><td>2008</td><td>Gdynia, Puola</td><td>0</td><td>1</td><td>0</td><td><a href="#v2008">joukkue</a></td></tr><tr><td>2007</td><td>Güstrow, Saksa</td><td>0</td><td>1</td><td>2</td><td><a href="#v2007">joukkue</a></td></tr><tr><td>2006</td><td>Heinola, Suomi</td><td>1</td><td>0</td><td>3</td><td><a href="#v2006">joukkue</a></td></tr><tr><td>2005</td><td>Pasvalys, Liettua</td><td>0</td><td>0</td><td>2</td><td><a href="#v2005">joukkue</a></td></tr><tr><td>2004</td><td>Ventspils, Latvia</td><td>0</td><td>1</td><td>4</td><td><a href="#v2004">joukkue</a></td></tr><tr><td>2003</td><td>Tartto, Viro</td><td>0</td><td>4</td><td>1</td><td><a href="#v2003">joukkue</a></td></tr><tr><td>2002</td><td>Vilna, Liettua</td><td>0</td><td>1</td><td>2</td><td><a href="#v2002">joukkue</a></td></tr><tr><td>2001</td><td>Sopot, Puola</td><td>0</td><td>0</td><td>2</td><td><a href="#v2001">joukkue</a></td></tr><tr><td>2000</td><td>Haninge, Ruotsi</td><td>2</td><td>0</td><td>0</td><td><a href="#v2000">joukkue</a></td></tr><tr><td>1999</td><td>Riika, Latvia</td><td>0</td><td>0</td><td>1</td><td><a href="#v1999">joukkue</a></td></tr><tr><td>1998</td><td>Tartto, Viro</td><td>1</td><td>0</td><td>0</td><td><a href="#v1998">joukkue</a></td></tr></table>
+
+{% include open-this.html 
+    year=2018
+    place='Tukholma, Ruotsi'
+    content='<p>Suomen joukkue:</p>
+
+<ul>
+<li> Théo Friberg </li>
+<li> Juha Harviainen (kultamitali) </li>
+<li> Olli Järviniemi </li>
+<li> Siiri Kuoppala (pronssimitali)</li>
+<li> Roope Salmi (kultamitali) </li>
+<li> Santeri Toivonen (hopeamitali) </li>
+</ul>
+
+<p>Ohjaajat: Tuukka Korhonen ja Antti Röyskö</p>' 
+%}
 
 
-<h2 id="v2018">BOI 2018: Tukholma, Ruotsi</h2>
 
-<p>Suomen joukkue:</p>
+{% include open-this.html 
+    year=2017
+    place='Bergen, Norja'
+    content='<p>Suomen joukkue:</p>
 
-
-* Théo Friberg
-* Juha Harviainen (kultamitali)
-* Olli Järviniemi
-* Siiri Kuoppala (pronssimitali)
-* Roope Salmi (kultamitali)
-* Santeri Toivonen (hopeamitali)
-
-
-<p>Ohjaajat: Tuukka Korhonen ja Antti Röyskö</p>
-
-<h2 id="v2017">BOI 2017: Bergen, Norja</h2>
-
-<p>Suomen joukkue:</p>
-
-* Juha Harviainen (hopeamitali)
-* Miska Kananen
-* Siiri Kuoppala (pronssimitali)
-* Onni Rantanen
-* Antti Röyskö (pronssimitali)
-* Roope Salmi
-
+<ul>
+<li> Juha Harviainen (hopeamitali) </li>
+<li> Miska Kananen </li>
+<li> Siiri Kuoppala (pronssimitali) </li>
+<li> Onni Rantanen </li>
+<li> Antti Röyskö (pronssimitali) </li>
+<li> Roope Salmi </li>
+</ul>
 
 <p>Ohjaajat: Topi Talvitie ja Tuukka Korhonen</p>
 
-<h2 id="v2016">BOI 2016: Helsinki, Suomi</h2>
+%}
+
+
+{% include open-this.html 
+    year=2016
+    place='Helsinki, Suomi'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Juha Harviainen (hopeamitali)
-* Hannes Ihalainen (hopeamitali)
-* Pietari Kaskela
-* Siiri Kuoppala
-* Kalle Luopajärvi
-* Roope Salmi (pronssimitali)
-
+<ul>
+<li> Juha Harviainen (hopeamitali) </li>
+<li> Hannes Ihalainen (hopeamitali) </li>
+<li> Pietari Kaskela </li>
+<li> Siiri Kuoppala </li>
+<li> Kalle Luopajärvi </li>
+<li> Roope Salmi (pronssimitali) </li>
+</ul>
 
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+%}
 
-<h2 id="v2015">BOI 2015: Varsova, Puola</h2>
+{% include open-this.html 
+    year=2015
+    place='Varsova, Puola'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Hannes Ihalainen (pronssimitali)
-* Sami Kalliomäki (pronssimitali)
-* Tuukka Korhonen (hopeamitali)
-* Henrik Lievonen (pronssimitali)
-* Kalle Luopajärvi (hopeamitali)
-* Petteri Timonen (pronssimitali)
-
+<ul>
+<li> Hannes Ihalainen (pronssimitali) </li>
+<li> Sami Kalliomäki (pronssimitali) </li>
+<li> Tuukka Korhonen (hopeamitali) </li>
+<li> Henrik Lievonen (pronssimitali) </li>
+<li> Kalle Luopajärvi (hopeamitali) </li>
+<li> Petteri Timonen (pronssimitali) </li>
+</ul>
 
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+%}
 
-<h2 id="v2014">BOI 2014: Palanga, Liettua</h2>
+
+{% include open-this.html 
+    year=2014
+    place='Palanga, Liettua'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Hannes Ihalainen
-* Sami Kalliomäki (hopeamitali)
-* Tuukka Korhonen
-* Henrik Lievonen (pronssimitali)
-* Kalle Luopajärvi (hopeamitali)
-* Petteri Timonen (hopeamitali)
-
+<ul>
+<li> Hannes Ihalainen </li>
+<li> Sami Kalliomäki (hopeamitali) </li>
+<li> Tuukka Korhonen </li>
+<li> Henrik Lievonen (pronssimitali) </li>
+<li> Kalle Luopajärvi (hopeamitali) </li>
+<li> Petteri Timonen (hopeamitali) </li>
+</ul>
 
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+%}
 
-<h2 id="v2013">BOI 2013: Rostock, Saksa</h2>
+{% include open-this.html 
+    year=2013
+    place='Rostock, Saksa'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Toni Annala (pronssimitali)
-* Sami Kalliomäki (pronssimitali)
-* Matias Lahti
-* Kalle Luopajärvi
-* Petteri Mäki
-* Joonatan Saarhelo
-
+<ul>
+<li> Toni Annala (pronssimitali) </li>
+<li> Sami Kalliomäki (pronssimitali) </li>
+<li> Matias Lahti </li>
+<li> Kalle Luopajärvi </li>
+<li> Petteri Mäki </li>
+<li> Joonatan Saarhelo </li>
+</ul>
 
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+%}
 
-<h2 id="v2012">BOI 2012: Ventspils, Latvia</h2>
+
+{% include open-this.html 
+    year=2012
+    place='Ventspils, Latvia'
+    content='<p>Suomen joukkue:</p>
+
 
 <p>Suomen joukkue:</p>
 
-
-* Andrei Cramariuc (hopeamitali)
-* Sami Kalliomäki (pronssimitali)
-* Jasse Lahdenperä (pronssimitali)
-* Henri Nurmi
-* Joonatan Saarhelo
-* Joona Rossi
-
+<ul>
+<li> Andrei Cramariuc (hopeamitali) </li>
+<li> Sami Kalliomäki (pronssimitali) </li>
+<li> Jasse Lahdenperä (pronssimitali) </li>
+<li> Henri Nurmi </li>
+<li> Joonatan Saarhelo </li>
+<li> Joona Rossi </li>
+</ul>
 
 <p>Ohjaajat: Timo Knuutila ja Antti Laaksonen</p>
+%}
 
-<h2 id="v2011">BOI 2011: Lyngby, Tanska</h2>
+{% include open-this.html 
+    year=2011
+    place='Lyngby, Tanska'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Andrei Cramariuc
-* Joel Huttunen
-* Toni Hyvönen
-* Jasse Lahdenperä
-* Johannes Laire (pronssimitali)
-* Janne Levijoki
-
+<ul>
+<li> Andrei Cramariuc </li>
+<li> Joel Huttunen </li>
+<li> Toni Hyvönen </li>
+<li> Jasse Lahdenperä </li>
+<li> Johannes Laire (pronssimitali) </li>
+<li> Janne Levijoki </li>
+</ul>
 
 <p>Ohjaajat: Mikko Sysikaski</p>
+%}
 
-<h2 id="v2010">BOI 2010: Tartto, Viro</h2>
+{% include open-this.html 
+    year=2010
+    place='Tartto, Viro'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Joonas Haapala (pronssimitali)
-* Nuutti Hölttä
-* Santtu Keskinen (hopeamitali)
-* Jasse Lahdenperä
-* Johannes Laire (pronssimitali)
-* Janne Levijoki
-
+<ul>
+<li> Joonas Haapala (pronssimitali) </li>
+<li> Nuutti Hölttä </li>
+<li> Santtu Keskinen (hopeamitali) </li>
+<li> Jasse Lahdenperä </li>
+<li> Johannes Laire (pronssimitali) </li>
+<li> Janne Levijoki </li>
+</ul>
 
 <p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>
+%}
 
-<h2 id="v2009">BOI 2009: Tukholma, Ruotsi</h2>
+{% include open-this.html 
+    year=2009
+    place='Tukholma, Ruotsi'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Nuutti Hölttä
-* Santtu Keskinen
-* Jussi Kokkala (pronssimitali)
-* Lari Sinisalo
-* Ville Sirviö
-* Tuomas Tynkkynen
-
+<ul>
+<li> Nuutti Hölttä </li>
+<li> Santtu Keskinen </li>
+<li> Jussi Kokkala (pronssimitali) </li>
+<li> Lari Sinisalo </li>
+<li> Ville Sirviö</li>
+<li> Tuomas Tynkkynen </li>
+</ul>
 
 <p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>
+%}
 
-<h2 id="v2008">BOI 2008: Gdynia, Puola</h2>
+
+{% include open-this.html 
+    year=2008
+    place='Gdynia, Puola'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Otto Ebeling
-* Aleksi Hartikainen
-* Toni Huttunen
-* Jussi Kokkala
-* Mika Laitinen
-* Mikko Sysikaski (hopeamitali)
-
+<ul>
+<li> Otto Ebeling </li>
+<li> Aleksi Hartikainen </li>
+<li> Toni Huttunen </li>
+<li> Jussi Kokkala </li>
+<li> Mika Laitinen </li>
+<li> Mikko Sysikaski (hopeamitali) </li>
+</ul>
 
 <p>Ohjaajat: Heikki Hyyrö ja Antti Laaksonen</p>
+%}
 
-<h2 id="v2007">BOI 2007: Güstrow, Saksa</h2>
+
+{% include open-this.html 
+    year=2007
+    place='Güstrow, Saksa'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Otto Ebeling (pronssimitali)
-* Harri Hätinen
-* Lauri Kenttä
-* Tuomo Lempiäinen
-* Jussi Pitkänen (pronssimitali)
-* Mikko Sysikaski (hopeamitali)
-
+<ul>
+<li> Otto Ebeling (pronssimitali) </li>
+<li> Harri Hätinen </li>
+<li> Lauri Kenttä </li>
+<li> Tuomo Lempiäinen </li>
+<li> Jussi Pitkänen (pronssimitali) </li>
+<li> Mikko Sysikaski (hopeamitali) </li>
+</ul>
 
 <p>Ohjaajat: Heikki Hyyrö ja Timo Poranen</p>
+%}
 
-<h2 id="v2006">BOI 2006: Heinola, Suomi</h2>
+
+{% include open-this.html 
+    year=2006
+    place='Heinola, Suomi'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue (1):</p>
 
-
-* Oleg Grenrus
-* Janne Kokkala (pronssimitali)
-* Antti Laaksonen (pronssimitali)
-* Ville Pettersson (kultamitali)
-* Otto Seiskari
-* Mikko Sysikaski
-
+<ul>
+<li> Oleg Grenrus </li>
+<li> Janne Kokkala (pronssimitali) </li>
+<li> Antti Laaksonen (pronssimitali) </li>
+<li> Ville Pettersson (kultamitali) </li>
+<li> Otto Seiskari </li>
+<li> Mikko Sysikaski </li>
+</ul>
 
 <p>Ohjaaja: Markus Ojala</p>
 
+
 <p>Suomen joukkue (2):</p>
 
-
-* Otto Ebeling
-* Anssi Hannula
-* Lauri Kenttä (pronssimitali)
-* Tuomo Lempiäinen
-* Jaakko Salo
-* Stefan Salo
-
+<ul>
+<li> Otto Ebeling </li>
+<li> Anssi Hannula </li>
+<li> Lauri Kenttä (pronssimitali) </li>
+<li> Tuomo Lempiäinen </li>
+<li> Jaakko Salo </li>
+<li> Stefan Salo </li>
+</ul>
 
 <p>Ohjaaja: Niko Kiirala</p>
+%}
 
-<h2 id="v2005">BOI 2005: Pasvalys, Liettua</h2>
+
+{% include open-this.html 
+    year=2005
+    place='Pasvalys, Liettua'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Mikko Ervasti
-* Antti Laaksonen
-* Ilkka Mattila (pronssimitali)
-* Ville Pettersson (pronssimitali)
-* Aleksi Torhamo
-
+<ul>
+<li> Mikko Ervasti </li>
+<li> Antti Laaksonen </li>
+<li> Ilkka Mattila (pronssimitali) </li>
+<li> Ville Pettersson (pronssimitali) </li>
+<li> Aleksi Torhamo </li>
+</ul>
 
 <p>Ohjaajat: Matti Nykänen ja Markus Ojala</p>
 
 <p>Joukkueeseen oli valittu myös Jussi Sainio, joka ei kuitenkaan päässyt matkalle.</p>
 
-<h2 id="v2004">BOI 2004: Ventspils, Latvia</h2>
+
+{% include open-this.html 
+    year=2004
+    place='Ventspils, Latvia'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Aki Jäntti (pronssimitali)
-* Niko Kiirala (hopeamitali)
-* Sami Kivistö (pronssimitali)
-* Topi Musto (pronssimitali)
-* Ville Mäkynen (pronssimitali)
-* Ville Pettersson
-
+<ul>
+<li> Aki Jäntti (pronssimitali) </li>
+<li> Niko Kiirala (hopeamitali) </li>
+<li> Sami Kivistö (pronssimitali) </li>
+<li> Topi Musto (pronssimitali) </li>
+<li> Ville Mäkynen (pronssimitali) </li>
+<li> Ville Pettersson </li>
+</ul>
 
 <p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>
+%}
 
-<h2 id="v2003">BOI 2003: Tartto, Viro</h2>
+
+{% include open-this.html 
+    year=2003
+    place='Tartto, Viro'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Tapani Alasaarela
-* Juha Arpiainen (hopeamitali)
-* Juha Backman (pronssimitali)
-* Niko Kiirala
-* Ville Mäkynen (hopeamitali)
-* Markus Ojala (hopeamitali)
-* Veli Peltola (hopeamitali)
-* Ville Pettersson
-
+<ul>
+<li> Tapani Alasaarela </li>
+<li> Juha Arpiainen (hopeamitali) </li>
+<li> Juha Backman (pronssimitali) </li>
+<li> Niko Kiirala </li>
+<li> Ville Mäkynen (hopeamitali) </li>
+<li> Markus Ojala (hopeamitali) </li>
+<li> Veli Peltola (hopeamitali) </li>
+<li> Ville Pettersson </li>
+</ul>
 
 <p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>
+%}
 
-<h2 id="v2002">BOI 2002: Vilna, Liettua</h2>
+
+{% include open-this.html 
+    year=2002
+    place='Vilna, Liettua'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
-
-* Marja Hassinen
-* Markus Ojala (hopeamitali)
-* Olli-Pekka Kahilakoski (pronssimitali)
-* Ville Mäkynen
-* Veli Peltola (pronssimitali)
-* Olli-Pentti Saira
-
+<ul>
+<li> Marja Hassinen </li>
+<li> Markus Ojala (hopeamitali) </li>
+<li> Olli-Pekka Kahilakoski (pronssimitali) </li>
+<li> Ville Mäkynen </li>
+<li> Veli Peltola (pronssimitali) </li>
+<li> Olli-Pentti Saira </li>
+</ul>
 
 <p>Ohjaajat: Tiina Aalto ja Ville Leppänen</p>
+%}
+
 
 <h2 id="v2001">BOI 2001: Sopot, Puola</h2>
 
