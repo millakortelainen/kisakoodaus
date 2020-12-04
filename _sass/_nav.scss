@@ -53,8 +53,7 @@
     margin: 0;
     display: flex;
     align-content: center;
-    justify-content: center;
-    width: auto;
+    justify-content: left;
 }
 
 @media screen and (max-width: 500px) {
@@ -89,6 +88,7 @@
         height: 2rem;
         width: 2rem;
         padding: 0;
-        margin-left: auto;
+        margin-left: 5rem;
+        margin-right: 1rem;
     }
 }
