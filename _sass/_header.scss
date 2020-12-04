@@ -11,12 +11,12 @@
     background-position: center;
 }
 
-.header h1 {
-    margin: auto;
-    margin-top: 11rem;
-    max-width: 50rem;
-}
-
 .header + .content {
     margin-top: 0;
+}
+
+@media screen and (max-width: 500px) {
+    .header{
+        height: 20rem;
+    }
 }

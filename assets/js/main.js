@@ -57,24 +57,6 @@ const scrollLeft2 = () => {
   });
 }
 
-const selectPage = () => {
-  const selectPages = document.getElementById("page-select")
-  if (selectPages.value !== "default") {
-    window.location.href = selectPages.value;
-  }
-
-}
-
-const showSelect = () => {
-  const selectPages = document.getElementById("select")
-
-  if (selectPages.className === "dropdown") {
-    selectPages.className = "dropdown-show"
-  } else {
-    selectPages.className = "dropdown"
-  }
-}
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
@@ -103,9 +85,18 @@ const resetColor = (number) => {
 function test(param) {
   if (param.lastElementChild.style.display === "none") {
     param.lastElementChild.style.display = "inherit"
-    
+
   } else {
     param.lastElementChild.style.display = "none"
+  }
+
+}
+
+const showNav = () => {
+  if (document.getElementById('nav-list').style.display === 'none') {
+    document.getElementById('nav-list').style.display = 'flex'
+  } else {
+    document.getElementById('nav-list').style.display = 'none'
   }
 
 }
