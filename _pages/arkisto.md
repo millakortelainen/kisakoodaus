@@ -46,7 +46,7 @@ title: Arkisto
 <li> Tuukka Yildirim (pronssimitali) </li>
 </ul>
 
-<p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p>' 
+<p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p> 
 %}
 
 {% include open-this.html 
@@ -63,7 +63,7 @@ title: Arkisto
 <li> Santeri Toivonen (hopeamitali) </li>
 </ul>
 
-<p>Ohjaajat: Tuukka Korhonen ja Antti Röyskö</p>' 
+<p>Ohjaajat: Tuukka Korhonen ja Antti Röyskö</p> 
 %}
 
 
@@ -71,7 +71,7 @@ title: Arkisto
 {% include open-this.html 
     year=2017
     place='Bergen, Norja'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Juha Harviainen (hopeamitali) </li>
@@ -90,7 +90,7 @@ title: Arkisto
 {% include open-this.html 
     year=2016
     place='Helsinki, Suomi'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
@@ -109,7 +109,7 @@ title: Arkisto
 {% include open-this.html 
     year=2015
     place='Varsova, Puola'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
@@ -129,7 +129,7 @@ title: Arkisto
 {% include open-this.html 
     year=2014
     place='Palanga, Liettua'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
@@ -148,7 +148,7 @@ title: Arkisto
 {% include open-this.html 
     year=2013
     place='Rostock, Saksa'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <p>Suomen joukkue:</p>
 
@@ -168,10 +168,8 @@ title: Arkisto
 {% include open-this.html 
     year=2012
     place='Ventspils, Latvia'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
-
-<p>Suomen joukkue:</p>
 
 <ul>
 <li> Andrei Cramariuc (hopeamitali) </li>
@@ -188,9 +186,7 @@ title: Arkisto
 {% include open-this.html 
     year=2011
     place='Lyngby, Tanska'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Andrei Cramariuc </li>
@@ -207,9 +203,8 @@ title: Arkisto
 {% include open-this.html 
     year=2010
     place='Tartto, Viro'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
-<p>Suomen joukkue:</p>
 
 <ul>
 <li> Joonas Haapala (pronssimitali) </li>
@@ -226,9 +221,7 @@ title: Arkisto
 {% include open-this.html 
     year=2009
     place='Tukholma, Ruotsi'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Nuutti Hölttä </li>
@@ -246,9 +239,7 @@ title: Arkisto
 {% include open-this.html 
     year=2008
     place='Gdynia, Puola'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Otto Ebeling </li>
@@ -266,9 +257,7 @@ title: Arkisto
 {% include open-this.html 
     year=2007
     place='Güstrow, Saksa'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Otto Ebeling (pronssimitali) </li>
@@ -286,9 +275,7 @@ title: Arkisto
 {% include open-this.html 
     year=2006
     place='Heinola, Suomi'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue (1):</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Oleg Grenrus </li>
@@ -320,9 +307,7 @@ title: Arkisto
 {% include open-this.html 
     year=2005
     place='Pasvalys, Liettua'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Mikko Ervasti </li>
@@ -341,9 +326,7 @@ title: Arkisto
 {% include open-this.html 
     year=2004
     place='Ventspils, Latvia'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Aki Jäntti (pronssimitali) </li>
@@ -361,9 +344,7 @@ title: Arkisto
 {% include open-this.html 
     year=2003
     place='Tartto, Viro'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Tapani Alasaarela </li>
@@ -383,10 +364,8 @@ title: Arkisto
 {% include open-this.html 
     year=2002
     place='Vilna, Liettua'
-    content='<p>Suomen joukkue:</p>'
-
-<p>Suomen joukkue:</p>
-
+    content='<p>Suomen joukkue:</p>
+    
 <ul>
 <li> Marja Hassinen </li>
 <li> Markus Ojala (hopeamitali) </li>
