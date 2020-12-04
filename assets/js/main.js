@@ -98,5 +98,4 @@ const showNav = () => {
   } else {
     document.getElementById('nav-list').style.display = 'none'
   }
-
 }
