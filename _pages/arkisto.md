@@ -12,9 +12,6 @@ title: Arkisto
 <h1 class='competition-header'>
     <div>vuosi</div> 
     <div>paikka</div> 
-    <div>k</div> 
-    <div>h</div> 
-    <div>p</div> 
 </h1>
 {% include open-this.html 
     year=2020
@@ -85,7 +82,7 @@ title: Arkisto
 <li> Roope Salmi </li>
 </ul>
 
-<p>Ohjaajat: Topi Talvitie ja Tuukka Korhonen</p>
+<p>Ohjaajat: Topi Talvitie ja Tuukka Korhonen</p>'
 
 %}
 
@@ -106,7 +103,7 @@ title: Arkisto
 <li> Roope Salmi (pronssimitali) </li>
 </ul>
 
-<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
 {% include open-this.html 
@@ -125,7 +122,7 @@ title: Arkisto
 <li> Petteri Timonen (pronssimitali) </li>
 </ul>
 
-<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
 
@@ -145,7 +142,7 @@ title: Arkisto
 <li> Petteri Timonen (hopeamitali) </li>
 </ul>
 
-<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
 {% include open-this.html 
@@ -164,7 +161,7 @@ title: Arkisto
 <li> Joonatan Saarhelo </li>
 </ul>
 
-<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>
+<p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
 
@@ -185,7 +182,7 @@ title: Arkisto
 <li> Joona Rossi </li>
 </ul>
 
-<p>Ohjaajat: Timo Knuutila ja Antti Laaksonen</p>
+<p>Ohjaajat: Timo Knuutila ja Antti Laaksonen</p>'
 %}
 
 {% include open-this.html 
@@ -204,7 +201,7 @@ title: Arkisto
 <li> Janne Levijoki </li>
 </ul>
 
-<p>Ohjaajat: Mikko Sysikaski</p>
+<p>Ohjaajat: Mikko Sysikaski</p>'
 %}
 
 {% include open-this.html 
@@ -223,7 +220,7 @@ title: Arkisto
 <li> Janne Levijoki </li>
 </ul>
 
-<p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>
+<p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>'
 %}
 
 {% include open-this.html 
@@ -242,7 +239,7 @@ title: Arkisto
 <li> Tuomas Tynkkynen </li>
 </ul>
 
-<p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>
+<p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>'
 %}
 
 
@@ -262,7 +259,7 @@ title: Arkisto
 <li> Mikko Sysikaski (hopeamitali) </li>
 </ul>
 
-<p>Ohjaajat: Heikki Hyyrö ja Antti Laaksonen</p>
+<p>Ohjaajat: Heikki Hyyrö ja Antti Laaksonen</p>'
 %}
 
 
@@ -282,7 +279,7 @@ title: Arkisto
 <li> Mikko Sysikaski (hopeamitali) </li>
 </ul>
 
-<p>Ohjaajat: Heikki Hyyrö ja Timo Poranen</p>
+<p>Ohjaajat: Heikki Hyyrö ja Timo Poranen</p>'
 %}
 
 
@@ -316,7 +313,7 @@ title: Arkisto
 <li> Stefan Salo </li>
 </ul>
 
-<p>Ohjaaja: Niko Kiirala</p>
+<p>Ohjaaja: Niko Kiirala</p>'
 %}
 
 
@@ -337,8 +334,9 @@ title: Arkisto
 
 <p>Ohjaajat: Matti Nykänen ja Markus Ojala</p>
 
-<p>Joukkueeseen oli valittu myös Jussi Sainio, joka ei kuitenkaan päässyt matkalle.</p>
+<p>Joukkueeseen oli valittu myös Jussi Sainio, joka ei kuitenkaan päässyt matkalle.</p>'
 %}
+
 
 {% include open-this.html 
     year=2004
@@ -356,7 +354,7 @@ title: Arkisto
 <li> Ville Pettersson </li>
 </ul>
 
-<p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>
+<p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>'
 %}
 
 
@@ -378,7 +376,7 @@ title: Arkisto
 <li> Ville Pettersson </li>
 </ul>
 
-<p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>
+<p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>'
 %}
 
 
@@ -398,7 +396,7 @@ title: Arkisto
 <li> Olli-Pentti Saira </li>
 </ul>
 
-<p>Ohjaajat: Tiina Aalto ja Ville Leppänen</p>
+<p>Ohjaajat: Tiina Aalto ja Ville Leppänen</p>'
 %}
 
 
