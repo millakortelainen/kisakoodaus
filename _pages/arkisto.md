@@ -16,7 +16,7 @@ title: Arkisto
 {% include open-this.html 
     year=2020
     place='Etäkisa, Latvia'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Henrik Aalto (hopeamitali)</li>
@@ -35,7 +35,7 @@ title: Arkisto
 {% include open-this.html 
     year=2019
     place='Tartto, Viro'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Henrik Aalto </li>
@@ -46,13 +46,13 @@ title: Arkisto
 <li> Tuukka Yildirim (pronssimitali) </li>
 </ul>
 
-<p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p> 
+<p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p> '
 %}
 
 {% include open-this.html 
     year=2018
     place='Tukholma, Ruotsi'
-    content='<p>Suomen joukkue:</p>'
+    content='<p>Suomen joukkue:</p>
 
 <ul>
 <li> Théo Friberg </li>
@@ -63,7 +63,7 @@ title: Arkisto
 <li> Santeri Toivonen (hopeamitali) </li>
 </ul>
 
-<p>Ohjaajat: Tuukka Korhonen ja Antti Röyskö</p> 
+<p>Ohjaajat: Tuukka Korhonen ja Antti Röyskö</p> '
 %}
 
 
