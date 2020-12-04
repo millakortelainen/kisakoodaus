@@ -53,10 +53,13 @@
     margin: 0;
     display: flex;
     align-content: center;
-    justify-content: left;
+    justify-content: center;
 }
 
 @media screen and (max-width: 500px) {
+    .wrapper-nav {
+        justify-content: left;
+    }
     .nav {
         position: fixed;
         text-align: left;

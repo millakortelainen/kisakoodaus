@@ -117,4 +117,10 @@ tr:nth-child(even) {
         text-align: center;
         margin: auto 0;
     }
+    .news-container {
+        padding-top: 2rem;
+        flex-direction: column;
+        max-width: 65em;
+        margin: auto;
+    }
 }
