@@ -19,7 +19,7 @@ title: Arkisto
 {% include open-this.html 
     year=2020
     place='Etäkisa, Latvia'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <ul>
 <li> Henrik Aalto (hopeamitali)</li>
@@ -38,7 +38,7 @@ title: Arkisto
 {% include open-this.html 
     year=2019
     place='Tartto, Viro'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <ul>
 <li> Henrik Aalto </li>
@@ -55,7 +55,7 @@ title: Arkisto
 {% include open-this.html 
     year=2018
     place='Tukholma, Ruotsi'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <ul>
 <li> Théo Friberg </li>
@@ -74,7 +74,7 @@ title: Arkisto
 {% include open-this.html 
     year=2017
     place='Bergen, Norja'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <ul>
 <li> Juha Harviainen (hopeamitali) </li>
@@ -93,7 +93,7 @@ title: Arkisto
 {% include open-this.html 
     year=2016
     place='Helsinki, Suomi'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -112,7 +112,7 @@ title: Arkisto
 {% include open-this.html 
     year=2015
     place='Varsova, Puola'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -132,7 +132,7 @@ title: Arkisto
 {% include open-this.html 
     year=2014
     place='Palanga, Liettua'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -151,7 +151,7 @@ title: Arkisto
 {% include open-this.html 
     year=2013
     place='Rostock, Saksa'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -171,7 +171,7 @@ title: Arkisto
 {% include open-this.html 
     year=2012
     place='Ventspils, Latvia'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 
 <p>Suomen joukkue:</p>
@@ -191,7 +191,7 @@ title: Arkisto
 {% include open-this.html 
     year=2011
     place='Lyngby, Tanska'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -210,7 +210,7 @@ title: Arkisto
 {% include open-this.html 
     year=2010
     place='Tartto, Viro'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -229,7 +229,7 @@ title: Arkisto
 {% include open-this.html 
     year=2009
     place='Tukholma, Ruotsi'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -249,7 +249,7 @@ title: Arkisto
 {% include open-this.html 
     year=2008
     place='Gdynia, Puola'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -269,7 +269,7 @@ title: Arkisto
 {% include open-this.html 
     year=2007
     place='Güstrow, Saksa'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -289,7 +289,7 @@ title: Arkisto
 {% include open-this.html 
     year=2006
     place='Heinola, Suomi'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue (1):</p>
 
@@ -323,7 +323,7 @@ title: Arkisto
 {% include open-this.html 
     year=2005
     place='Pasvalys, Liettua'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -338,12 +338,12 @@ title: Arkisto
 <p>Ohjaajat: Matti Nykänen ja Markus Ojala</p>
 
 <p>Joukkueeseen oli valittu myös Jussi Sainio, joka ei kuitenkaan päässyt matkalle.</p>
-
+%}
 
 {% include open-this.html 
     year=2004
     place='Ventspils, Latvia'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -363,7 +363,7 @@ title: Arkisto
 {% include open-this.html 
     year=2003
     place='Tartto, Viro'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
@@ -385,7 +385,7 @@ title: Arkisto
 {% include open-this.html 
     year=2002
     place='Vilna, Liettua'
-    content='<p>Suomen joukkue:</p>
+    content='<p>Suomen joukkue:</p>'
 
 <p>Suomen joukkue:</p>
 
