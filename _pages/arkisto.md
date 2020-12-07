@@ -813,7 +813,7 @@ title: Arkisto
 
 {% include open-this.html 
     year=1997
-    place='Turkki'
+    place='Etelä-Afrikka'
     content='<p>Suomen joukkue:</p>
 
 <ul>
