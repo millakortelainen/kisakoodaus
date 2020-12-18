@@ -74,7 +74,11 @@ tr:nth-child(even) {
 }
 
 .frontpage > .content {
-    margin-top: 0;
+    background-color: #ffffffde;
+}
+
+.frontpage > .header {
+    z-index: -11;
 }
 
 .red {
