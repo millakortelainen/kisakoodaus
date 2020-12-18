@@ -82,10 +82,9 @@ const resetColor = (number) => {
   listItem.className = 'white'
 }
 
-function test(param) {
+const toggle = (param) => {
   if (param.lastElementChild.style.display === "none") {
     param.lastElementChild.style.display = "inherit"
-
   } else {
     param.lastElementChild.style.display = "none"
   }

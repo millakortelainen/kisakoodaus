@@ -13,7 +13,7 @@ title: Arkisto
     <div>vuosi</div> 
     <div>paikka</div> 
 </h1>
-{% include open-this.html 
+{% include BOI.html 
     year=2020
     place='Etäkisa, Latvia'
     content='<p>Suomen joukkue:</p>
@@ -32,7 +32,7 @@ title: Arkisto
 <p>Koronan vuoksi BOI järjestettiin etänä. Suomen joukkue kilpaili Päivölän opistolla.</p>' 
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2019
     place='Tartto, Viro'
     content='<p>Suomen joukkue:</p>
@@ -49,7 +49,7 @@ title: Arkisto
 <p>Ohjaajat: Antti Laaksonen ja Olli Matilainen</p> '
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2018
     place='Tukholma, Ruotsi'
     content='<p>Suomen joukkue:</p>
@@ -68,7 +68,7 @@ title: Arkisto
 
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2017
     place='Bergen, Norja'
     content='<p>Suomen joukkue:</p>
@@ -87,7 +87,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2016
     place='Helsinki, Suomi'
     content='<p>Suomen joukkue:</p>
@@ -106,7 +106,7 @@ title: Arkisto
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2015
     place='Varsova, Puola'
     content='<p>Suomen joukkue:</p>
@@ -126,7 +126,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2014
     place='Palanga, Liettua'
     content='<p>Suomen joukkue:</p>
@@ -145,7 +145,7 @@ title: Arkisto
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2013
     place='Rostock, Saksa'
     content='<p>Suomen joukkue:</p>
@@ -165,7 +165,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2012
     place='Ventspils, Latvia'
     content='<p>Suomen joukkue:</p>
@@ -183,7 +183,7 @@ title: Arkisto
 <p>Ohjaajat: Timo Knuutila ja Antti Laaksonen</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2011
     place='Lyngby, Tanska'
     content='<p>Suomen joukkue:</p>
@@ -200,7 +200,7 @@ title: Arkisto
 <p>Ohjaajat: Mikko Sysikaski</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2010
     place='Tartto, Viro'
     content='<p>Suomen joukkue:</p>
@@ -218,7 +218,7 @@ title: Arkisto
 <p>Ohjaajat: Timo Poranen ja Antti Laaksonen</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2009
     place='Tukholma, Ruotsi'
     content='<p>Suomen joukkue:</p>
@@ -236,7 +236,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2008
     place='Gdynia, Puola'
     content='<p>Suomen joukkue:</p>
@@ -254,7 +254,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2007
     place='Güstrow, Saksa'
     content='<p>Suomen joukkue:</p>
@@ -272,7 +272,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2006
     place='Heinola, Suomi'
     content='<p>Suomen joukkue:</p>
@@ -304,7 +304,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2005
     place='Pasvalys, Liettua'
     content='<p>Suomen joukkue:</p>
@@ -323,7 +323,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2004
     place='Ventspils, Latvia'
     content='<p>Suomen joukkue:</p>
@@ -341,7 +341,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2003
     place='Tartto, Viro'
     content='<p>Suomen joukkue:</p>
@@ -361,7 +361,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include BOI.html 
     year=2002
     place='Vilna, Liettua'
     content='<p>Suomen joukkue:</p>
@@ -378,7 +378,7 @@ title: Arkisto
 <p>Ohjaajat: Tiina Aalto ja Ville Leppänen</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2001
     place='Sopot, Puola'
     content='<p>Suomen joukkue:</p>
@@ -395,7 +395,7 @@ title: Arkisto
 <p>Ohjaajat: Ville Leppänen ja Timo Knuutila</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=2000
     place='Haninge, Ruotsi'
     content='<p>Suomen joukkue:</p>
@@ -412,7 +412,7 @@ title: Arkisto
 <p>Ohjaajat: Tiina Aalto ja Ville Leppänen</p>'
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=1999
     place='Riika, Latvia'
     content='<p>Suomen joukkue:</p>
@@ -430,7 +430,7 @@ title: Arkisto
 
 %}
 
-{% include open-this.html 
+{% include BOI.html 
     year=1998
     place='Tartto, Viro'
     content='<p>Suomen joukkue:</p>
@@ -457,7 +457,7 @@ title: Arkisto
 <p>Suomi on saanut IOI:sta 5 kultamitalia, 23 hopeamitalia ja 43 pronssimitalia.</p>
 
 
-{% include open-this.html 
+{% include IOI.html 
     year=2020
     place='Etäkisa'
     content='<p>Suomen joukkue:</p>
@@ -474,7 +474,7 @@ title: Arkisto
 <p>Suomen joukkue osallistui kilpailuun Tampereen yliopistolla.</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2019
     place='Azerbaidžan'
     content='<p>Suomen joukkue:</p>
@@ -490,7 +490,7 @@ title: Arkisto
 
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2018
     place='Japani'
     content='<p>Suomen joukkue:</p>
@@ -506,7 +506,7 @@ title: Arkisto
 
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2017
     place='Iran'
     content='<p>Suomen joukkue:</p>
@@ -521,7 +521,7 @@ title: Arkisto
 <p>Ohjaajat: Ada-Maaria Hyvärinen ja Lari Sinisalo</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2016
     place='Venäjä'
     content='<p>Suomen joukkue:</p>
@@ -536,7 +536,7 @@ title: Arkisto
 <p>Ohjaajat: Antti Laaksonen ja Tuukka Korhonen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2015
     place='Kazakstan'
     content='<p>Suomen joukkue:</p>
@@ -551,7 +551,7 @@ title: Arkisto
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2014
     place='Taiwan'
     content='<p>Suomen joukkue:</p>
@@ -566,7 +566,7 @@ title: Arkisto
 <p>Ohjaajat: Antti Laaksonen ja Topi Talvitie</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2013
     place='Australia'
     content='<p>Suomen joukkue:</p>
@@ -582,7 +582,7 @@ title: Arkisto
 <p>Rahoitusongelmien vuoksi joukkueessa oli vain kolme kilpailijaa.</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2012
     place='Italia'
     content='<p>Suomen joukkue:</p>
@@ -597,7 +597,7 @@ title: Arkisto
 <p>Ohjaajat: Timo Knuutila ja Antti Laaksonen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2011
     place='Thaimaa'
     content='<p>Suomen joukkue:</p>
@@ -613,7 +613,7 @@ title: Arkisto
 <p>Joukkueeseen oli valittu myös Janne Levijoki, joka ei kuitenkaan päässyt matkalle.</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2010
     place='Kanada'
     content='<p>Suomen joukkue:</p>
@@ -628,7 +628,7 @@ title: Arkisto
 <p>Ohjaajat: Heikki Hyyrö ja Antti Laaksonen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2009
     place='Bulgaria'
     content='<p>Suomen joukkue:</p>
@@ -643,7 +643,7 @@ title: Arkisto
 <p>Ohjaajat: Heikki Hyyrö ja Antti Laaksonen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2008
     place='Egypti'
     content='<p>Suomen joukkue:</p>
@@ -658,7 +658,7 @@ title: Arkisto
 <p>Ohjaajat: Heikki Hyyrö ja Timo Poranen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2007
     place='Kroatia'
     content='<p>Suomen joukkue:</p>
@@ -673,7 +673,7 @@ title: Arkisto
 <p>Ohjaajat: Heikki Hyyrö ja Timo Poranen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2006
     place='Meksiko'
     content='<p>Suomen joukkue:</p>
@@ -688,7 +688,7 @@ title: Arkisto
 <p>Ohjaajat: Samuli Laine ja Niko Kiirala</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2005
     place='Puola'
     content='<p>Suomen joukkue:</p>
@@ -703,7 +703,7 @@ title: Arkisto
 <p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2004
     place='Kreikka'
     content='<p>Suomen joukkue:</p>
@@ -718,7 +718,7 @@ title: Arkisto
 <p>Ohjaajat: Jari Koivisto ja Matti Nykänen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2003
     place='Yhdysvallat'
     content='<p>Suomen joukkue:</p>
@@ -733,7 +733,7 @@ title: Arkisto
 <p>Ohjaajat: Tiina Aalto ja Matti Nykänen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2002
     place='Etelä-Korea'
     content='<p>Suomen joukkue:</p>
@@ -748,7 +748,7 @@ title: Arkisto
 <p>Ohjaajat: Tiina Aalto ja Ville Leppänen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2001
     place='Suomi'
     content='<p>Suomen joukkue:</p>
@@ -763,7 +763,7 @@ title: Arkisto
 <p>Ohjaajat: Ville Leppänen ja Timo Knuutila</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=2000
     place='Kiina'
     content='<p>Suomen joukkue:</p>
@@ -779,7 +779,7 @@ title: Arkisto
 
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1999
     place='Turkki'
     content='<p>Suomen joukkue:</p>
@@ -796,7 +796,7 @@ title: Arkisto
 %}
 
 
-{% include open-this.html 
+{% include IOI.html 
     year=1998
     place='Portugali'
     content='<p>Suomen joukkue:</p>
@@ -811,7 +811,7 @@ title: Arkisto
 <p>Ohjaajat: Jari Koivisto ja Jyrki Nummenmaa</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1997
     place='Turkki'
     content='<p>Suomen joukkue:</p>
@@ -826,7 +826,7 @@ title: Arkisto
 <p>Ohjajat: Jari Koivisto ja Jyrki Nummenmaa</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1996
     place='Unkari'
     content='<p>Suomen joukkue:</p>
@@ -841,7 +841,7 @@ title: Arkisto
 <p>Ohjaajat: Jari Koivisto ja Jyrki Nummenmaa</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1995
     place='Alankomaat'
     content='<p>Suomen joukkue:</p>
@@ -859,7 +859,7 @@ title: Arkisto
 <p>IOI 1995:ssä joukkueessa sai olla poikkeuksellisesti viisi jäsentä tavallisen neljän sijasta, mikäli joukkueessa oli sekä tyttöjä että poikia.</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1994
     place='Ruotsi'
     content='<p>Suomen joukkue:</p>
@@ -874,7 +874,7 @@ title: Arkisto
 <p>Ohjaajat: Otto Nurmi ja Jari Koivisto</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1993
     place='Argentiina'
     content='<p>Suomen joukkue:</p>
@@ -889,7 +889,7 @@ title: Arkisto
 <p>Ohjaajat: Timo Raita ja Jukka Hirvonen</p>'
 %}
 
-{% include open-this.html 
+{% include IOI.html 
     year=1992
     place='Saksa'
     content='<p>Suomen joukkue:</p>
