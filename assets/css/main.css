@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap");
+html { font-family: "Open Sans", sans-serif; font-size: 18px; line-height: 1.5; color: #000000; width: 100%; background-color: #ffffff; background-position: center; background-attachment: fixed; background-size: cover; margin-bottom: 0; overflow-x: hidden; }
+
+body { margin: 0; }
+
+@media screen and (max-width: 500px) { body { overflow-x: hidden; } }
+
+.nav { position: fixed; text-align: center; width: 100%; z-index: 999; top: 0; background-color: white; padding-top: 1rem; }
+
+.nav ol { list-style-type: none; padding-left: 0; display: inline-block; margin-top: 0; }
+
+.nav ol li { display: inline-block; padding: 0 0.5em; }
+
+.nav ol li a { text-decoration: none; color: inherit; padding: 0.2em; }
+
+.nav ol li a:visited { color: inherit; text-decoration: none; }
+
+#logo-link:hover { text-decoration: none; background: transparent; }
+
+.nav ol li a:hover { text-decoration: none; }
+
+#nav-logo { height: 2rem; }
+
+#menu-icon { display: none; }
+
+.wrapper-nav { padding: 0; margin: 0; display: flex; align-content: center; justify-content: center; }
+
+@media screen and (max-width: 500px) { .wrapper-nav { justify-content: left; } .nav { position: fixed; text-align: left; width: 100%; z-index: 999; top: 0; background-color: white; padding-top: 1rem; } .nav ol { display: none; flex-direction: column; } .nav ol li a { display: block; } #menu-icon { display: block; background-color: transparent; border: none; overflow-x: hidden; background-image: url(../img/menu-icon.svg); background-position: left; background-repeat: no-repeat; background-size: contain; height: 2rem; width: 2rem; padding: 0; margin-left: 5rem; margin-right: 1rem; } }
+
+.footer { bottom: 0; color: black; background-image: url(../img/logo_turkoosi.png); background-repeat: no-repeat; background-size: contain; padding: 1em; margin-top: 0; background-color: #14e5dfff; }
+
+.footer img { width: 250px; }
+
+.footer-wrapper { max-width: 45rem; margin: auto; }
+
+.header { font-size: 2rem; color: black; padding: 1em 1em 0; width: 100%; height: 30rem; background-color: lightgray; background-image: url(../img/iso_kuvavärikäs.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+
+.header + .content { margin-top: 0; }
+
+@media screen and (max-width: 500px) { .header { height: 20rem; } }
+
+.content { color: #2b2b2b; background-color: #ffffff; padding: 1em 2em 1em 2em; max-width: 45rem; margin: auto; margin-top: 2em; }
+
+img { max-width: 45rem; }
+
+.clickable-text:hover { background-color: lightgray; }
+
+.competition-header { display: flex; flex-direction: row; }
+
+.competition-header > div { flex: auto; }
+
+.result { table-layout: fixed; width: 100%; text-align: center; word-wrap: normal; }
+
+.result td { vertical-align: top; }
+
+.result .small { width: 1rem; }
+
+.unfolding-div h1::after { padding-left: 1.5rem; font-size: 0.8em; content: "＋"; }
+
+h1:not(.competition-header) { background-image: url(../img/logokeltainen.png); background-repeat: no-repeat; background-size: contain; padding-left: 5rem; background-color: #ffe814ff; }
+
+@media screen and (max-width: 500px) { .result th { padding: 0.3rem; } .result td { padding: 0.3rem; } img { max-width: 300px; } }
+
+.news-container { padding-top: 2rem; display: flex; flex-direction: row; max-width: 65em; margin: auto; }
+
+.news { overflow-y: scroll; display: flex; flex-direction: row; text-align: center; }
+
+.news > .square { min-width: 20em; margin-left: 0.5rem; display: flex; flex-direction: column; padding: 1em; }
+
+.square > p { margin: 0; align-items: center; }
+
+.square > a { margin-left: auto; margin-right: 1rem; color: #2b2b2b; }
+
+table { width: 100%; table-layout: fixed; border-collapse: collapse; border: 3px solid darkgray; }
+
+th, td { padding: 1rem; }
+
+tr:nth-child(even) { background-color: lightgray; }
+
+.scroll-news-btn { background: transparent; height: 5rem; width: 5rem; border: none; padding: 0px; vertical-align: middle; text-align: center; font-size: 5rem; color: lightgray; }
+
+.scroll-news-btn:hover { color: darkgray; }
+
+.button-group { display: flex; flex-direction: row; justify-content: right; }
+
+.button-group > button { text-align: center; margin: auto 0; }
+
+.frontpage > .content { margin-top: 0; }
+
+.red { background-color: #ed1212ff; }
+
+.yellow { background-color: #ffe814ff; }
+
+.orange { background-color: #ff8800ff; }
+
+.blue { background-color: #0060ffff; }
+
+.turquoise { background-color: #14e5dfff; }
+
+.white { background-color: white; }
+
+@media screen and (max-width: 500px) { .scroll-news-btn { background: transparent; height: 2rem; width: 2rem; border: none; padding: 0px; vertical-align: middle; text-align: center; font-size: 2rem; color: lightgray; } .button-group > button { text-align: center; margin: auto 0; } .news-container { padding-top: 2rem; flex-direction: column; max-width: 65em; margin: auto; } }
+
+/*# sourceMappingURL=main.css.map */

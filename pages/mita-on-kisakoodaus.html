@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>
+    
+    Mitä on kisakoodaus? - Kisakoodaus
+    
+  </title>
+  <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: {
+          scale: 87
+        }
+      });
+      </script>
+  <script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  <link rel='stylesheet' type='text/css' media='screen' href=/kisakoodari/assets/css/main.css>
+  <link rel='stylesheet' type='text/css' media='screen' href=/kisakoodari/assets/css/syntax.css>
+
+  <script src=/kisakoodari/assets/js/main.js></script>
+
+</head>
+
+<body>
+
+    <nav class="nav" id="nav">
+        <div class='wrapper-nav'>
+        <a id="logo-link" href="/kisakoodari/index"><img
+                        src="/kisakoodari/assets/img/logo_oranssi_teksti.png" id="nav-logo"></a>
+                        <button onclick="showNav()" id='menu-icon'></button>
+        </div>
+    
+        <ol id='nav-list'>
+                <li id='nav-1' onmouseover="color(1)" onmouseout="resetColor(1)"><a
+                                href="/kisakoodari/pages/mita-on-kisakoodaus">Mitä on kisakoodaus?</a></li>
+                <li id='nav-5' onmouseover="color(5)" onmouseout="resetColor(5)"><a
+                                href="/kisakoodari/pages/koulukisat">Koulukisat</a></li>
+                <li id='nav-6' onmouseover="color(6)" onmouseout="resetColor(6)"><a
+                                href="/kisakoodari/pages/nettikisat">Nettikisat</a></li>
+                <li id='nav-7' onmouseover="color(7)" onmouseout="resetColor(7)"><a
+                                href="/kisakoodari/pages/yliopistokisat">Yliopistokisat</a></li>
+                <li id='nav-3' onmouseover="color(3)" onmouseout="resetColor(3)"><a
+                                href="/kisakoodari/pages/materiaali"> Materiaali</a></li>
+                <li id='nav-2' onmouseover="color(2)" onmouseout="resetColor(2)"><a
+                                        href="/kisakoodari/pages/arkisto"> Arkisto</a></li>
+
+        </ol>
+
+</nav>
+    <div class="page-content">
+        <div class="header">
+</div>
+
+        <div class="content">
+    <h1 id="mitä-on-kisakoodaus">Mitä on kisakoodaus?</h1>
+<p>Kisakoodaus eli kilpaohjelmointi mittaa taitoa suunnitella ja toteuttaa algoritmeja. Kilpailuissa menestyminen vaatii kykyä ratkaista ongelmia sekä koodata nopeasti ja virheettömästi.</p>
+
+<p>Ohjelmointikilpailussa on joukko tehtäviä, jotka täytyy ratkaista tietyn ajan kuluessa. Yleensä jokaisen tehtävän ratkaisu on ohjelma, joka lukee syötteen, ratkaisee tehtävän ja tulostaa vastauksen.</p>
+
+<p>Ratkaisun arvostelu tapahtuu automaattisesti testaamalla sitä joukolla tekstisyötteitä. Testauksessa tutkitaan toimiiko ratkaisu oikein ja riittävän tehokkaasti.</p>
+
+<h2 id="esimerkkitehtävä">Esimerkkitehtävä</h2>
+
+<p>Annettuna on merkkijono, jossa on n merkkiä väliltä A–Z. Tehtäväsi on tutkia, saako merkkijonosta palindromin järjestämällä merkit sopivasti.</p>
+
+<p>Esimerkiksi jos merkkijono on ABABC, siitä saa palindromin ABCBA. Merkkijonosta ABADC taas ei saa palindromia millään tavalla.</p>
+
+<p>Ohjelmasi tulee tulostaa “YES”, jos merkkijonosta saa palindromin, ja muuten “NO”.</p>
+
+<h2 id="ratkaisun-idea">Ratkaisun idea</h2>
+
+<p>Lasketaan jokaisesta merkistä, montako kertaa se esiintyy merkkijonossa. Jos kaikkia merkkejä on parillinen määrä tai tasan yhtä merkkiä on pariton määrä, merkeistä voi muodostaa palindromin. Jälkimmäisessä tapauksessa pariton merkki on palindromin keskellä.</p>
+
+<h2 id="ratkaisu-c-koodina">Ratkaisu C++-koodina</h2>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="syntax"><code><span class="cp">#include &lt;iostream&gt;
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+
+<span class="n">string</span> <span class="n">s</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">c</span><span class="p">[</span><span class="mi">128</span><span class="p">];</span>
+
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">s</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">s</span><span class="p">.</span><span class="n">size</span><span class="p">();</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">c</span><span class="p">[</span><span class="n">s</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="kt">int</span> <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="sc">'A'</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="sc">'Z'</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="n">z</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">z</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"YES</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+    <span class="k">else</span> <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"NO</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h1 id="näin-pääset-alkuun">Näin pääset alkuun</h1>
+
+<ol>
+  <li>
+    <p><strong>Opettele C++</strong></p>
+
+    <p>Kisakoodaus vaatii sujuvaa ohjelmointitaitoa. Paras valinta ohjelmointikieleksi on C++, joka on tehokas ja jonka ominaisuudet sopivat hyvin kilpaohjelmointiin.</p>
+
+    <p>Kisakoodaus ei vaadi kielen erikoisominaisuuksien tuntemista. Muuttujat, taulukot, ehdot, silmukat ja funktiot riittävät kisakoodauksesa pitkälle.</p>
+
+    <p>C++-ohjelmointia voi opetella muun muassa <a href="https://tie.koodariksi.fi/">tästä</a>.</p>
+  </li>
+  <li>
+    <p><strong>Lue Kisakoodarin käsikirja eli KKKK</strong></p>
+
+    <p>Kisakoodarin käsikirja sisältää paljon tietoa kisakoodauksesta. Voit opetella sen avulla tärkeitä tietorakenteita ja algoritmeja. Voit ladata KKKK:n itsellesi <a href="http://kisakoodaus.fi/kkkk.pdf">tästä</a>.</p>
+  </li>
+  <li>
+    <p><strong>Harjoittele</strong></p>
+
+    <p>Datatähden valmennuskurssi on hyvä paikka harjoitella kisakoodausta. Kurssilla on 200 tehtävää, jotka vaikeutuvat vähitellen. Kurssi toimii CSES-nimisessä järjestelmässä ja pääset siihen <a href="https://cses.fi/dt/">tästä</a>.</p>
+
+    <p>Valmennuskurssilta löytyy myös linkki Datatähden <a href="https://t.me/datatahti">Telegram-kanavalle</a>. Kisakoodauksella on myös <a href="https://discord.gg/Brqv74x">Discord-kanava</a>. Kanavilla voi pyytää tehtäviin apua, keskustella kisakoodauksesta ja tutustua muihin kisakoodareihin.</p>
+  </li>
+  <li>
+    <p><strong>Osallistu kisoihin</strong></p>
+
+    <p><a href="http://www.codeforces.com/">Codeforces</a> järjestää viikoittain nettikisoja. Sivuston käyttäjät ovat kahdessa sarjassa: aloittelijat ovat Div2:ssa ja edistyneemmät ovat Div1:ssä.</p>
+
+    <p>Hyviä kisoja kisakoodauksen aloittamiseen ovat myös <a href="http://www.usaco.org/">USACO</a> ja <a href="http://hsin.hr/coci/">COCI</a>. Näitä kisoja järjestetään syksystä kevääseen noin kuukauden välein.</p>
+
+    <p>Osallistu kisoihin aina, kun pystyt. Mitä useammin osallistut, sitä enemmän opit.</p>
+  </li>
+</ol>
+
+</div>
+        <div class="footer">
+    <div class='footer-wrapper'>
+        Antti Laaksonen
+    </div>
+</div>
+    </div>
+
+</body>
+
+</html>
