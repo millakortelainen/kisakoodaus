@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Kisakoodaus
-baseurl: "/kisakoodari" # the subpath of your site, e.g. /blog
-url: "https://millakortelainen.github.io/kisakoodari/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/kisakoodaus" # the subpath of your site, e.g. /blog
+url: "https://millakortelainen.github.io/kisakoodaus/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
